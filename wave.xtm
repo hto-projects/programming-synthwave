@@ -1,0 +1,15 @@
+;; need to load this first, but only once
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+(*metro* 'set-tempo 120.0)
+
+(set_osc syn1 1 .8 PARAM_SINE 1.00 0.0 0.9)
+(set_osc syn1 2 .8 PARAM_SAW 1.00 0.0 0.39)
+
+(set_amp_env syn1 10.0 1200.0 .4 200.0)
+
+(:> lead 4 0 (play syn1 @1 75 dur) '(60 62 64 65 67 69 71 72))
+(:| lead 4 0 (play syn1 @1 75 dur) '())
