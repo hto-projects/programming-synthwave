@@ -76,6 +76,7 @@
 (define *impc:aot:prev-compiler-message-level* *impc:compiler:message:level*)
 
 (define *impc:ti:implicit-adhoc-compiles* #t)
+(define *impc:ti:suppress-ir-generation* #f)
 
 (define suppress-compiler-messages
   (lambda (bool)
@@ -1325,6 +1326,7 @@
     ("exit" . #((213 -1 4) "" ())) ;; libc
     ("expm1" . #((213 0 0) "" ())) ;; libm
     ("expm1f" . #((213 1 1) "" ())) ;; libm
+    ("extempore_init" . #((213 4 4 208))) ;; libextempore
     ("extitoa" . #((213 108 2) "" ())) ;; xtlang (for kinect only?)
     ("fclose" . #((213 4 108) "" ())) ;; libc
     ("fdim" . #((213 0 0 0) "" ())) ;; libm
@@ -2665,7 +2667,9 @@
 (define *impc:aot:current-output-port* #f)
 (define *impc:aot:current-lib-name* "xtmdylib")
 (define *impc:aot:win-link-libraries* '(".\\libs\\platform-shlibs\\extempore.lib"))
-(define *impc:aot:win-link-libraries-exe* '(".\\libs\\builds\\extempore.lib"))
+(define *impc:aot:win-link-libraries-exe* '(".\\libs\\platform-shlibs\\extempore.lib"))
+(define *impc:aot:unix-link-libraries* '("-lextempore -lm"))
+(define *impc:aot:unix-link-libraries-exe* '("-lextempore -lm"))
 
 (define *impc:aot:func-defs-in-mod* '())
 ;; should be a cons pair e.g. '(libGLU .
@@ -2913,18 +2917,18 @@
              (asm-path (string-append tmp-dir module-name (unix-or-Windows ".o" ".obj"))) ; could skip .o (straight to .so)
              (output-dir (sanitize-platform-path (string-append (sys:share-dir) "/libs/builds/")))
              (output-exe-path (string-append output-dir module-name
-                                               (cond ((string=? platform "Linux") "")
+                                               (cond ((string=? platform "Linux") (if asdll? ".so" ""))
                                                      ((string=? platform "OSX") "")
                                                      ((string=? platform "Windows") (if asdll? ".dll" ".exe")))))
              (link-libs (if (string=? platform "Windows")
                             *impc:aot:win-link-libraries-exe*
-                            '()))
+                            *impc:aot:unix-link-libraries-exe*))
              (optimize-compiles? #t)
              (llc-command
               (unix-or-Windows (string-append
                                 llc-path
                                 (if optimize-compiles? " -O3 -tailcallopt" "-O0")
-                                " -filetype=obj "
+                                " -relocation-model=pic -filetype=obj "
                                 (if (and (string=? (sys:platform) "OSX")
                                          (sys:cmdarg "mcpu")
                                          (not (string=? (sys:cmdarg "mcpu") "")))
@@ -2941,15 +2945,16 @@
              (link-command
               (unix-or-Windows (string-append
                                 (cond ((string=? platform "Linux")
-                                       (string-append "gcc "
-                                                      (if optimize-compiles? "-O3 -g" "-g -O0")
+                                       (string-append "gcc -Llibs/platform-shlibs "
+                                                      (if asdll? "-shared -fPIC " "")
+                                                      (if optimize-compiles? "-O3 -g " "-g -O0 ")
                                                       ""))
                                       ((string=? platform "OSX")
                                        (string-append "clang "
                                                       (if optimize-compiles? "-O3" "-g -O0")
                                                       "")))
                                 asm-path
-                                " -o " output-exe-path)
+                                " -o " output-exe-path " " (string-join link-libs " "))
                                (string-append
                                 "call link"
                                 (if asdll? " /DLL" "")
@@ -6732,7 +6737,7 @@ Continue executing `body' forms until `test-expression' returns #f"
             (and (list? request?)
                  (equal? (car request?) *impc:ir:notype*)))
         (set! request? #f))
-     ;; flatten request
+    ;; flatten request
     (if (and request?
              (list? request?)
              ;; (not (impc:ir:complex-type? request?))
@@ -6771,6 +6776,9 @@ Continue executing `body' forms until `test-expression' returns #f"
                   (arity (- (length ast) 1))
                   ;; (lll (println 'gname gname arity (if request? (cons request? args) args)))
                   (gpt (impc:ti:genericfunc-types gname arity (if request? (cons request? args) args)))
+                  (gpt-valid (if (equal? #f gpt) 
+                                 (impc:compiler:print-compiler-error "no valid generic options available for: " ast)
+                                 #t))
                   ;; request? request? args)))
                   (gpoly-code (cadr gpt))
                   (constraint (cadddr gpt))
@@ -6867,13 +6875,23 @@ Continue executing `body' forms until `test-expression' returns #f"
                     vars))
 
              ;; if there is a valid request (return type) add it to gpoly-type!
-             ;; (println '--> request? request? 'gpolyt gpoly-type)
+             ;; (println '--> 'request? request? 'gpolyt gpoly-type)
              (if (and request? (impc:ir:type? request?))
                  ;; (set! gpoly-type (cons (car gpoly-type) (cons request? (cddr gpoly-type)))))
                  (begin
                    (if (symbol? (cadr gpoly-type))
                        (begin
-                         ;; (println 'g-return-update: (cadr gpoly-type) 'with request?)
+                         (if (string? request?)
+                             (let ((req (regex:matched request? "^%([^_]*).*"))
+                                   (gen (regex:matched (symbol->string (cadr gpoly-type)) "^([A-Za-z][^{:]*).*")))
+                                ;; (println 'req req 'gen gen)
+                                (if (and (= (length req) 2) 
+                                         (= (length gen) 2))
+                                    (if (and (not (equal? (cadr req) (cadr gen)))
+                                             #t) ;; (not (equal? (cadr gen) "_")))
+                                         ;; (impc:compiler:print-compiler-error "no valid generic options available for: " ast)))))
+                                        (impc:compiler:print-compiler-error (string-append "Return type mismatch for generic function which expected return type '" (cadr gen) "' and got named type '" (cadr req) "'") ast)))))  
+                        ;; (println 'update 'return 'var 'with  (impc:ti:update-var (cadr gpoly-type) vars kts (list request?)))
                          (if (not (member (cadr gpoly-type) vars))
                              (set-cdr! vars (cons (list (cadr gpoly-type)) (cdr vars))))
                          (impc:ti:update-var (cadr gpoly-type) vars kts (list request?))))
@@ -7807,6 +7825,14 @@ xtlang's `let' syntax is the same as Scheme"
                (or (not (list? t));(not (impc:ir:type? t))
                    (not (impc:ir:closure? t))))
           (impc:compiler:print-compiler-error "type error calculating return type - have you specified an incorrect closure type?" ast))
+      (if (and (impc:ir:type? t)
+               (impc:ir:closure? t)
+               (string? a)
+               (string? request?)
+               (regex:match? request? "^%.*")
+               (regex:match? a "^%.*")
+               (not (equal? request? a)))
+          (impc:compiler:print-compiler-error (string-append "type error calculating return type - expected named type '" a "' got '" request? "'") ast))        
       (if *impc:ti:print-sub-checks* (println 'ret:> 'ast: ast 'a: a 'sym: sym))
       (if (and (impc:ir:type? t)
                (impc:ir:closure? t))
@@ -11326,7 +11352,7 @@ xtlang's `let' syntax is the same as Scheme"
 
 (define impc:ti:search-for-dylib
   (lambda (path)
-    (let loop ((rel-paths
+    (let loop ((candidate-paths
                 (append
                  (list
                   path
@@ -11342,20 +11368,21 @@ xtlang's `let' syntax is the same as Scheme"
                                             ":")
                                            '("/usr/local/lib/" "/usr/lib/" "/opt/local/lib/" "/usr/lib/x86_64-linux-gnu")))
                                   (list (sanitize-platform-path (string-append "C:/Windows/System32/" path)))))))
-      (if (null? rel-paths)
+      (if (null? candidate-paths)
           #f
-          (if (file-exists? (car rel-paths))
-              (let ((dylib (sys:open-dylib (car rel-paths) #t)))
-                (if dylib
-                    (cons dylib (car rel-paths))
+          (let ((dylib (sys:open-dylib (car candidate-paths) #f)))
+            (if dylib
+                (cons dylib (car candidate-paths))
+                (if (file-exists? (car candidate-paths))
+                    ;; if sys:open-dylib failed bu the file is there, something's gone wrong
                     (begin
                       (print-with-colors *impc:compiler:pretty-print-error-color* 'default #t
                                          (print "Error"))
                       (print ": could not open ")
-                      (print-with-colors *impc:compiler:pretty-print-type-color* 'default #t (car rel-paths))
+                      (print-with-colors *impc:compiler:pretty-print-type-color* 'default #t (car candidate-paths))
                       (print " dynamic library\n")
-                      (error ""))))
-              (loop (cdr rel-paths)))))))
+                      (error ""))
+                    (loop (cdr candidate-paths)))))))))
 
 (define impc:ti:bind-dylib
   (lambda (library lib-paths)
@@ -11484,12 +11511,17 @@ e.g.
            (impc:compiler:print-compiler-error "bind-lib-type failed" ,name)))))
 
 (define-macro (register-lib-type library name type docstring)
+  (if (impc:aot:currently-compiling?) 
+      (set! *impc:ti:suppress-ir-generation* #t)
+      (set! *impc:ti:suppress-ir-generation* #f))
   (let* ((a (impc:ir:get-pretty-tuple-arg-strings (symbol->string type)))
          (namestr (symbol->string name))
          (typestr (symbol->string type)))
-    `(impc:ti:register-new-namedtype ,namestr
+    `(begin 
+       (impc:ti:register-new-namedtype ,namestr
                                       ',(impc:ir:get-type-from-pretty-str typestr namestr)
-                                      ,docstring)))
+                                      ,docstring)
+       (set! *impc:ti:suppress-ir-generation* #f))))
 
 
 ;;; this here for binding to CLOSURE in dylib

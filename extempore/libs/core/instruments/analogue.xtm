@@ -409,7 +409,10 @@
         (CHANSF (i32tof CHANNELS)))
     (lambda ()
       (let ((notekernel:NOTE_KERNEL null)
+            (name 'Analogue')
             (mod_amp:|4,SAMPLE|* (array_ref 1.0 1.0 1.0 1.0))
+            (mod_phase:|4,SAMPLE|* (array_ref 0.0 0.0 0.0 0.0))
+            (mod_options:|4,i32|* (array_ref 0 0 0 0))
             (mod_frq:|4,SAMPLE|* (array_ref 1.0 1.0 1.0 1.0))
             (mod_attack:|4,SAMPLE|* (array_ref 10.0 10.0 10.0 10.0)) ;; in millis
             (mod_decay:|4,SAMPLE|* (array_ref 10.0 10.0 10.0 10.0))
@@ -885,10 +888,10 @@
       (set_lfo_ad inst PARAM_LFO3 10.0 10.0 0.0 0.0)
       (set_lfo_ad inst PARAM_LFO4 10.0 10.0 0.0 0.0)
       ;; set amp frq
-      (set_lfo inst PARAM_LFO1 1.0 1.0)
-      (set_lfo inst PARAM_LFO2 1.0 1.0)
-      (set_lfo inst PARAM_LFO3 1.0 1.0)
-      (set_lfo inst PARAM_LFO4 1.0 1.0)
+      (set_lfo inst PARAM_LFO1 1.0 1.0 0.0 0)
+      (set_lfo inst PARAM_LFO2 1.0 1.0 0.0 0)
+      (set_lfo inst PARAM_LFO3 1.0 1.0 0.0 0)
+      (set_lfo inst PARAM_LFO4 1.0 1.0 0.0 0)
       ;; set LFO type
       (set_lfo_type inst PARAM_LFO1 PARAM_SINE)
       (set_lfo_type inst PARAM_LFO2 PARAM_SINE)

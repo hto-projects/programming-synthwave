@@ -4607,23 +4607,27 @@ ret void
 }
 
 
-@gsxtminstruments_ext61 = hidden constant [227 x i8] c"make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd\00"
-@gsxtminstruments_ext62 = hidden constant [299 x i8] c"{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**\00"
-@gsxtminstruments_ext63 = hidden constant [14 x i8] c"effect_kernel\00"
-@gsxtminstruments_ext64 = hidden constant [57 x i8] c"{i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**\00"
-@gsxtminstruments_ext65 = hidden constant [12 x i8] c"note_kernel\00"
-@gsxtminstruments_ext66 = hidden constant [9 x i8] c"new_note\00"
-@gsxtminstruments_ext67 = hidden constant [74 x i8] c"{i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**\00"
-@gsxtminstruments_ext68 = hidden constant [2 x i8] c"i\00"
-@gsxtminstruments_ext69 = hidden constant [2 x i8] c"k\00"
-@gsxtminstruments_ext70 = hidden constant [4 x i8] c"out\00"
-@gsxtminstruments_ext71 = hidden constant [7 x i8] c"kernel\00"
-@gsxtminstruments_ext72 = hidden constant [8 x i8] c"kernels\00"
-@gsxtminstruments_ext73 = hidden constant [43 x i8] c"{i8*, i8*, float (i8*, i8*, i64, i64)*}***\00"
-@gsxtminstruments_ext74 = hidden constant [5 x i8] c"note\00"
-@gsxtminstruments_ext75 = hidden constant [6 x i8] c"notes\00"
-@gsxtminstruments_ext76 = hidden constant [12 x i8] c"%NoteData**\00"
-@gsxtminstruments_ext77 = hidden constant [5 x i8] c"poly\00"
+@gsxtminstruments_ext61 = hidden constant [3 x i8] c"No\00"
+@gsxtminstruments_ext62 = hidden constant [7 x i8] c"loaded\00"
+@gsxtminstruments_ext63 = hidden constant [3 x i8] c"in\00"
+@gsxtminstruments_ext64 = hidden constant [5 x i8] c"bank\00"
+@gsxtminstruments_ext65 = hidden constant [227 x i8] c"make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd\00"
+@gsxtminstruments_ext66 = hidden constant [299 x i8] c"{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**\00"
+@gsxtminstruments_ext67 = hidden constant [14 x i8] c"effect_kernel\00"
+@gsxtminstruments_ext68 = hidden constant [57 x i8] c"{i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**\00"
+@gsxtminstruments_ext69 = hidden constant [12 x i8] c"note_kernel\00"
+@gsxtminstruments_ext70 = hidden constant [9 x i8] c"new_note\00"
+@gsxtminstruments_ext71 = hidden constant [74 x i8] c"{i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**\00"
+@gsxtminstruments_ext72 = hidden constant [2 x i8] c"i\00"
+@gsxtminstruments_ext73 = hidden constant [2 x i8] c"k\00"
+@gsxtminstruments_ext74 = hidden constant [4 x i8] c"out\00"
+@gsxtminstruments_ext75 = hidden constant [7 x i8] c"kernel\00"
+@gsxtminstruments_ext76 = hidden constant [8 x i8] c"kernels\00"
+@gsxtminstruments_ext77 = hidden constant [43 x i8] c"{i8*, i8*, float (i8*, i8*, i64, i64)*}***\00"
+@gsxtminstruments_ext78 = hidden constant [5 x i8] c"note\00"
+@gsxtminstruments_ext79 = hidden constant [6 x i8] c"notes\00"
+@gsxtminstruments_ext80 = hidden constant [12 x i8] c"%NoteData**\00"
+@gsxtminstruments_ext81 = hidden constant [5 x i8] c"poly\00"
 define dllexport fastcc %NoteData* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1552(i8* %_impz,i8* %_impenv, i64 %start, float %freq, i64 %dur, float %amp, i64 %nargs, float* %dargs) nounwind {
 entry:
 %_impzPtr = alloca i8*
@@ -4681,8 +4685,8 @@ store i64 %nargs, i64* %nargsPtr
 store float* %dargs, float** %dargsPtr
 
 ; promote local stack var allocations
-%tzone1805 = load i8*, i8** %_impzPtr
-%zone1806 = bitcast i8* %tzone1805 to %mzone*
+%tzone1867 = load i8*, i8** %_impzPtr
+%zone1868 = bitcast i8* %tzone1867 to %mzone*
 %ifptr1643 = alloca i32
 
 %tzone1633 = load i8*, i8** %_impzPtr
@@ -4818,6 +4822,11 @@ store i64 %idxi, i64* %idxiPtr
 %new_idx = select i1 true, i64 %val1668, i64 %val1668
 store i64 %new_idx, i64* %new_idxPtr
 
+; promote local stack var allocations
+%tzone1865 = load i8*, i8** %_impzPtr
+%zone1866 = bitcast i8* %tzone1865 to %mzone*
+%ifptr1708 = alloca i1
+%ifptr1725 = alloca i1
 ; setup loop
 store i64 0, i64* %idxiPtr
 %val1703 = load i64, i64* %idxiPtr
@@ -4914,168 +4923,263 @@ store i64 %next1671, i64* %idxiPtr
 br i1 %cmp1671, label %loop1671, label %after1671
 
 after1671:
-%val1708 = load %NoteData*, %NoteData** %free_notePtr
-%val1709 = icmp eq %NoteData* %val1708, null
-br i1 %val1709, label %then1707, label %else1707
+%val1709 = load i64, i64* %new_idxPtr
+%val1710 = load i32, i32* %bankPtr
+%val1711 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
+; array ref
+%val1712 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1711, i32 0, i32 %val1710
+; array ref
+%_val1713 = getelementptr [128 x i64], [128 x i64]* %val1712, i32 0, i64 %val1709
+%val1714 = load i64, i64* %_val1713
+%val1715 = sub i64 %val1714, 10
+%cmp1716 = icmp slt i64 %val1715, 1
+br i1 %cmp1716, label %then1708, label %else1708
+
+then1708:
+%val1717 = load i64, i64* %new_idxPtr
+%val1718 = load i32, i32* %bankPtr
+%val1719 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
+; array ref
+%val1720 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1719, i32 0, i32 %val1718
+; array ref
+%_val1721 = getelementptr [128 x i64], [128 x i64]* %val1720, i32 0, i64 %val1717
+%val1722 = load i64, i64* %_val1721
+%val1723 = sub i64 %val1722, 10
+%cmp1724 = icmp slt i64 %val1723, 1
+store i1 %cmp1724, i1* %ifptr1708
+br label %ifcont1708
+
+else1708:
+%val1726 = load i64, i64* %new_idxPtr
+%val1727 = load i32, i32* %bankPtr
+%val1728 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
+; array ref
+%val1729 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val1728, i32 0, i32 %val1727
+; array ref
+%_val1730 = getelementptr [128 x float*], [128 x float*]* %val1729, i32 0, i64 %val1726
+%val1731 = load float*, float** %_val1730
+%val1732 = icmp eq float* %val1731, null
+br i1 %val1732, label %then1725, label %else1725
+
+then1725:
+%val1733 = load i64, i64* %new_idxPtr
+%val1734 = load i32, i32* %bankPtr
+%val1735 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
+; array ref
+%val1736 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val1735, i32 0, i32 %val1734
+; array ref
+%_val1737 = getelementptr [128 x float*], [128 x float*]* %val1736, i32 0, i64 %val1733
+%val1738 = load float*, float** %_val1737
+%val1739 = icmp eq float* %val1738, null
+store i1 %val1739, i1* %ifptr1725
+br label %ifcont1725
+
+else1725:
+%res1740 = call ccc i1 @impc_false()
+store i1 %res1740, i1* %ifptr1725
+br label %ifcont1725
+
+ifcont1725:
+%ifres1741 = load i1, i1* %ifptr1725
+
+store i1 %ifres1741, i1* %ifptr1708
+br label %ifcont1708
+
+ifcont1708:
+%ifres1742 = load i1, i1* %ifptr1708
+
+br i1 %ifres1742, label %then1707, label %else1707
 
 then1707:
-%null1710 = bitcast i8* null to %NoteData*
-ret %NoteData* %null1710
+%var1743 = bitcast [3 x i8]* @gsxtminstruments_ext61 to i8*
+%res1744 = call fastcc %Symbol* @Symbol_adhoc_W1N5bWJvbCosaTgqXQ(i8* %var1743)
+call fastcc void @print_adhoc_W3ZvaWQsU3ltYm9sKl0(%Symbol* %res1744)
+call fastcc void @print_space_adhoc_W3ZvaWRd()
+%var1747 = bitcast [8 x i8]* @gsxtminstruments_ext27 to i8*
+%res1748 = call fastcc %Symbol* @Symbol_adhoc_W1N5bWJvbCosaTgqXQ(i8* %var1747)
+call fastcc void @print_adhoc_W3ZvaWQsU3ltYm9sKl0(%Symbol* %res1748)
+call fastcc void @print_space_adhoc_W3ZvaWRd()
+%var1751 = bitcast [7 x i8]* @gsxtminstruments_ext62 to i8*
+%res1752 = call fastcc %Symbol* @Symbol_adhoc_W1N5bWJvbCosaTgqXQ(i8* %var1751)
+call fastcc void @print_adhoc_W3ZvaWQsU3ltYm9sKl0(%Symbol* %res1752)
+call fastcc void @print_space_adhoc_W3ZvaWRd()
+%var1755 = bitcast [3 x i8]* @gsxtminstruments_ext63 to i8*
+%res1756 = call fastcc %Symbol* @Symbol_adhoc_W1N5bWJvbCosaTgqXQ(i8* %var1755)
+call fastcc void @print_adhoc_W3ZvaWQsU3ltYm9sKl0(%Symbol* %res1756)
+call fastcc void @print_space_adhoc_W3ZvaWRd()
+%var1759 = bitcast [5 x i8]* @gsxtminstruments_ext64 to i8*
+%res1760 = call fastcc %Symbol* @Symbol_adhoc_W1N5bWJvbCosaTgqXQ(i8* %var1759)
+call fastcc void @print_adhoc_W3ZvaWQsU3ltYm9sKl0(%Symbol* %res1760)
+call fastcc void @print_space_adhoc_W3ZvaWRd()
+%val1763 = load i32, i32* %bankPtr
+call fastcc void @print_adhoc_W3ZvaWQsaTMyXQ(i32 %val1763)
+call fastcc void @print_return_adhoc_W3ZvaWRd()
+%null1766 = bitcast i8* null to %NoteData*
+ret %NoteData* %null1766
 
 else1707:
-%val1712 = load %NoteData*, %NoteData** %free_notePtr
-%res1713 = call ccc i1 @note_active_get(%NoteData* %val1712)
-br i1 %res1713, label %then1711, label %else1711
-
-then1711:
-%val1714 = load %NoteData*, %NoteData** %free_notePtr
-%val1715 = load i64, i64* %idxPtr
-; set tuple
-%val1716 = getelementptr %NoteData, %NoteData* %val1714, i64 0, i32 0
-store i64 %val1715, i64* %val1716
-%val1717 = load %NoteData*, %NoteData** %free_notePtr
-%val1718 = load i64, i64* %startPtr
-; set tuple
-%val1719 = getelementptr %NoteData, %NoteData* %val1717, i64 0, i32 1
-store i64 %val1718, i64* %val1719
-%val1720 = load %NoteData*, %NoteData** %free_notePtr
-%val1721 = load float, float* %freqPtr
-; set tuple
-%val1722 = getelementptr %NoteData, %NoteData* %val1720, i64 0, i32 2
-store float %val1721, float* %val1722
-%val1723 = load %NoteData*, %NoteData** %free_notePtr
-%val1724 = load float, float* %ampPtr
-; set tuple
-%val1725 = getelementptr %NoteData, %NoteData* %val1723, i64 0, i32 3
-store float %val1724, float* %val1725
-%val1726 = load %NoteData*, %NoteData** %free_notePtr
-%val1727 = load i64, i64* %durPtr
-; set tuple
-%val1728 = getelementptr %NoteData, %NoteData* %val1726, i64 0, i32 4
-store i64 %val1727, i64* %val1728
-%val1729 = load %NoteData*, %NoteData** %free_notePtr
-; set tuple
-%val1730 = getelementptr %NoteData, %NoteData* %val1729, i64 0, i32 5
-store float 0x3ff0000000000000, float* %val1730
-%val1731 = load %NoteData*, %NoteData** %free_notePtr
-%res1732 = call ccc i1 @impc_true()
-; set tuple
-%val1733 = getelementptr %NoteData, %NoteData* %val1731, i64 0, i32 6
-store i1 %res1732, i1* %val1733
-%val1734 = load %NoteData*, %NoteData** %free_notePtr
-; set tuple
-%val1735 = getelementptr %NoteData, %NoteData* %val1734, i64 0, i32 7
-store i64 0, i64* %val1735
-%val1736 = load %NoteData*, %NoteData** %free_notePtr
-%val1737 = load %mzone*, %mzone** %zonePtr
-%val1738 = bitcast %mzone* %val1737 to i8*
-; set tuple
-%val1739 = getelementptr %NoteData, %NoteData* %val1736, i64 0, i32 8
-store i8* %val1738, i8** %val1739
-%val1740 = load %NoteData*, %NoteData** %free_notePtr
-ret %NoteData* %val1740
-
-else1711:
-%val1741 = load %mzone*, %mzone** %zonePtr
-%res1742 = call fastcc %mzone* @reset_zone_adhoc_W216b25lKixtem9uZSpd(%mzone* %val1741)
-%val1743 = load %mzone*, %mzone** %zonePtr
-call void @llvm_push_zone_stack(%mzone* %val1743)
-%zone_ptr1744 = bitcast %mzone* %val1743 to i8*
-store i8* %zone_ptr1744, i8** %_impzPtr
-%val1746 = load %NoteData*, %NoteData** %free_notePtr
-%val1747 = load i64, i64* %idxPtr
-; set tuple
-%val1748 = getelementptr %NoteData, %NoteData* %val1746, i64 0, i32 0
-store i64 %val1747, i64* %val1748
-%val1749 = load %NoteData*, %NoteData** %free_notePtr
-%val1750 = load i64, i64* %startPtr
-; set tuple
-%val1751 = getelementptr %NoteData, %NoteData* %val1749, i64 0, i32 1
-store i64 %val1750, i64* %val1751
-%val1752 = load %NoteData*, %NoteData** %free_notePtr
-%val1753 = load float, float* %freqPtr
-; set tuple
-%val1754 = getelementptr %NoteData, %NoteData* %val1752, i64 0, i32 2
-store float %val1753, float* %val1754
-%val1755 = load %NoteData*, %NoteData** %free_notePtr
-%val1756 = load float, float* %ampPtr
-; set tuple
-%val1757 = getelementptr %NoteData, %NoteData* %val1755, i64 0, i32 3
-store float %val1756, float* %val1757
-%val1758 = load %NoteData*, %NoteData** %free_notePtr
-%val1759 = load i64, i64* %durPtr
-; set tuple
-%val1760 = getelementptr %NoteData, %NoteData* %val1758, i64 0, i32 4
-store i64 %val1759, i64* %val1760
-%val1761 = load %NoteData*, %NoteData** %free_notePtr
-; set tuple
-%val1762 = getelementptr %NoteData, %NoteData* %val1761, i64 0, i32 5
-store float 0x3ff0000000000000, float* %val1762
-%val1763 = load %NoteData*, %NoteData** %free_notePtr
-%res1764 = call ccc i1 @impc_true()
-; set tuple
-%val1765 = getelementptr %NoteData, %NoteData* %val1763, i64 0, i32 6
-store i1 %res1764, i1* %val1765
-%val1766 = load %NoteData*, %NoteData** %free_notePtr
-; set tuple
-%val1767 = getelementptr %NoteData, %NoteData* %val1766, i64 0, i32 7
-store i64 0, i64* %val1767
 %val1768 = load %NoteData*, %NoteData** %free_notePtr
-%val1769 = load %mzone*, %mzone** %zonePtr
-%val1770 = bitcast %mzone* %val1769 to i8*
-; set tuple
-%val1771 = getelementptr %NoteData, %NoteData* %val1768, i64 0, i32 8
-store i8* %val1770, i8** %val1771
-%val1772 = load i64, i64* %idxPtr
-%val1773 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
+%val1769 = icmp eq %NoteData* %val1768, null
+br i1 %val1769, label %then1767, label %else1767
+
+then1767:
+%null1770 = bitcast i8* null to %NoteData*
+ret %NoteData* %null1770
+
+else1767:
+%val1772 = load %NoteData*, %NoteData** %free_notePtr
+%res1773 = call ccc i1 @note_active_get(%NoteData* %val1772)
+br i1 %res1773, label %then1771, label %else1771
+
+then1771:
 %val1774 = load %NoteData*, %NoteData** %free_notePtr
-%val1775 = load i32, i32* %bankPtr
-%val1776 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
+%val1775 = load i64, i64* %idxPtr
+; set tuple
+%val1776 = getelementptr %NoteData, %NoteData* %val1774, i64 0, i32 0
+store i64 %val1775, i64* %val1776
+%val1777 = load %NoteData*, %NoteData** %free_notePtr
+%val1778 = load i64, i64* %startPtr
+; set tuple
+%val1779 = getelementptr %NoteData, %NoteData* %val1777, i64 0, i32 1
+store i64 %val1778, i64* %val1779
+%val1780 = load %NoteData*, %NoteData** %free_notePtr
+%val1781 = load float, float* %freqPtr
+; set tuple
+%val1782 = getelementptr %NoteData, %NoteData* %val1780, i64 0, i32 2
+store float %val1781, float* %val1782
+%val1783 = load %NoteData*, %NoteData** %free_notePtr
+%val1784 = load float, float* %ampPtr
+; set tuple
+%val1785 = getelementptr %NoteData, %NoteData* %val1783, i64 0, i32 3
+store float %val1784, float* %val1785
+%val1786 = load %NoteData*, %NoteData** %free_notePtr
+%val1787 = load i64, i64* %durPtr
+; set tuple
+%val1788 = getelementptr %NoteData, %NoteData* %val1786, i64 0, i32 4
+store i64 %val1787, i64* %val1788
+%val1789 = load %NoteData*, %NoteData** %free_notePtr
+; set tuple
+%val1790 = getelementptr %NoteData, %NoteData* %val1789, i64 0, i32 5
+store float 0x3ff0000000000000, float* %val1790
+%val1791 = load %NoteData*, %NoteData** %free_notePtr
+%res1792 = call ccc i1 @impc_true()
+; set tuple
+%val1793 = getelementptr %NoteData, %NoteData* %val1791, i64 0, i32 6
+store i1 %res1792, i1* %val1793
+%val1794 = load %NoteData*, %NoteData** %free_notePtr
+; set tuple
+%val1795 = getelementptr %NoteData, %NoteData* %val1794, i64 0, i32 7
+store i64 0, i64* %val1795
+%val1796 = load %NoteData*, %NoteData** %free_notePtr
+%val1797 = load %mzone*, %mzone** %zonePtr
+%val1798 = bitcast %mzone* %val1797 to i8*
+; set tuple
+%val1799 = getelementptr %NoteData, %NoteData* %val1796, i64 0, i32 8
+store i8* %val1798, i8** %val1799
+%val1800 = load %NoteData*, %NoteData** %free_notePtr
+ret %NoteData* %val1800
+
+else1771:
+%val1801 = load %mzone*, %mzone** %zonePtr
+%res1802 = call fastcc %mzone* @reset_zone_adhoc_W216b25lKixtem9uZSpd(%mzone* %val1801)
+%val1803 = load %mzone*, %mzone** %zonePtr
+call void @llvm_push_zone_stack(%mzone* %val1803)
+%zone_ptr1804 = bitcast %mzone* %val1803 to i8*
+store i8* %zone_ptr1804, i8** %_impzPtr
+%val1806 = load %NoteData*, %NoteData** %free_notePtr
+%val1807 = load i64, i64* %idxPtr
+; set tuple
+%val1808 = getelementptr %NoteData, %NoteData* %val1806, i64 0, i32 0
+store i64 %val1807, i64* %val1808
+%val1809 = load %NoteData*, %NoteData** %free_notePtr
+%val1810 = load i64, i64* %startPtr
+; set tuple
+%val1811 = getelementptr %NoteData, %NoteData* %val1809, i64 0, i32 1
+store i64 %val1810, i64* %val1811
+%val1812 = load %NoteData*, %NoteData** %free_notePtr
+%val1813 = load float, float* %freqPtr
+; set tuple
+%val1814 = getelementptr %NoteData, %NoteData* %val1812, i64 0, i32 2
+store float %val1813, float* %val1814
+%val1815 = load %NoteData*, %NoteData** %free_notePtr
+%val1816 = load float, float* %ampPtr
+; set tuple
+%val1817 = getelementptr %NoteData, %NoteData* %val1815, i64 0, i32 3
+store float %val1816, float* %val1817
+%val1818 = load %NoteData*, %NoteData** %free_notePtr
+%val1819 = load i64, i64* %durPtr
+; set tuple
+%val1820 = getelementptr %NoteData, %NoteData* %val1818, i64 0, i32 4
+store i64 %val1819, i64* %val1820
+%val1821 = load %NoteData*, %NoteData** %free_notePtr
+; set tuple
+%val1822 = getelementptr %NoteData, %NoteData* %val1821, i64 0, i32 5
+store float 0x3ff0000000000000, float* %val1822
+%val1823 = load %NoteData*, %NoteData** %free_notePtr
+%res1824 = call ccc i1 @impc_true()
+; set tuple
+%val1825 = getelementptr %NoteData, %NoteData* %val1823, i64 0, i32 6
+store i1 %res1824, i1* %val1825
+%val1826 = load %NoteData*, %NoteData** %free_notePtr
+; set tuple
+%val1827 = getelementptr %NoteData, %NoteData* %val1826, i64 0, i32 7
+store i64 0, i64* %val1827
+%val1828 = load %NoteData*, %NoteData** %free_notePtr
+%val1829 = load %mzone*, %mzone** %zonePtr
+%val1830 = bitcast %mzone* %val1829 to i8*
+; set tuple
+%val1831 = getelementptr %NoteData, %NoteData* %val1828, i64 0, i32 8
+store i8* %val1830, i8** %val1831
+%val1832 = load i64, i64* %idxPtr
+%val1833 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
+%val1834 = load %NoteData*, %NoteData** %free_notePtr
+%val1835 = load i32, i32* %bankPtr
+%val1836 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
 ; array ref
-%val1777 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val1776, i32 0, i32 %val1775
-%val1778 = load i32, i32* %bankPtr
-%val1779 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
+%val1837 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val1836, i32 0, i32 %val1835
+%val1838 = load i32, i32* %bankPtr
+%val1839 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
 ; array ref
-%val1780 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1779, i32 0, i32 %val1778
-%val1781 = load i32, i32* %bankPtr
-%val1782 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_offsetsPtr
+%val1840 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1839, i32 0, i32 %val1838
+%val1841 = load i32, i32* %bankPtr
+%val1842 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_offsetsPtr
 ; array ref
-%val1783 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1782, i32 0, i32 %val1781
-%val1784 = load i32, i32* %bankPtr
-%val1785 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_channelsPtr
+%val1843 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1842, i32 0, i32 %val1841
+%val1844 = load i32, i32* %bankPtr
+%val1845 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_channelsPtr
 ; array ref
-%val1786 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1785, i32 0, i32 %val1784
-%val1787 = load i64, i64* %new_idxPtr
-%val1788 = load i64, i64* %nargsPtr
-%val1789 = load float*, float** %dargsPtr
+%val1846 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1845, i32 0, i32 %val1844
+%val1847 = load i64, i64* %new_idxPtr
+%val1848 = load i64, i64* %nargsPtr
+%val1849 = load float*, float** %dargsPtr
 
 ; apply closure 
-%vval1790 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr
-%val1791 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*,{i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %vval1790
-%fPtr1792 = getelementptr {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}* %val1791, i32 0, i32 2
-%ePtr1793 = getelementptr {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}* %val1791, i32 0, i32 1
-%f1794 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)** %fPtr1792
-%e1795 = load i8*, i8** %ePtr1793
-%tzone1796 = load i8*, i8** %_impzPtr
-%zone1797 = bitcast i8* %tzone1796 to %mzone*
-%z1798 = bitcast %mzone* %zone1797 to i8*
-%result1799 = tail call fastcc {i8*, i8*, float (i8*, i8*, i64, i64)*}** %f1794(i8* %z1798, i8* %e1795, %NoteData* %val1774, [128 x float*]* %val1777, [128 x i64]* %val1780, [128 x i64]* %val1783, [128 x i64]* %val1786, i64 %val1787, i64 %val1788, float* %val1789)
+%vval1850 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr
+%val1851 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*,{i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %vval1850
+%fPtr1852 = getelementptr {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}* %val1851, i32 0, i32 2
+%ePtr1853 = getelementptr {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}* %val1851, i32 0, i32 1
+%f1854 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)** %fPtr1852
+%e1855 = load i8*, i8** %ePtr1853
+%tzone1856 = load i8*, i8** %_impzPtr
+%zone1857 = bitcast i8* %tzone1856 to %mzone*
+%z1858 = bitcast %mzone* %zone1857 to i8*
+%result1859 = tail call fastcc {i8*, i8*, float (i8*, i8*, i64, i64)*}** %f1854(i8* %z1858, i8* %e1855, %NoteData* %val1834, [128 x float*]* %val1837, [128 x i64]* %val1840, [128 x i64]* %val1843, [128 x i64]* %val1846, i64 %val1847, i64 %val1848, float* %val1849)
 ; set pointer
-%val1800 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1773, i64 %val1772
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %result1799, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1800
-%oldzone1801 = call %mzone* @llvm_pop_zone_stack()
-%newzone1802 = call %mzone* @llvm_peek_zone_stack()
-%zone_ptr1803 = bitcast %mzone* %newzone1802 to i8*
-store i8* %zone_ptr1803, i8** %_impzPtr
-%val1804 = load %NoteData*, %NoteData** %free_notePtr
-ret %NoteData* %val1804
+%val1860 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1833, i64 %val1832
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %result1859, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1860
+%oldzone1861 = call %mzone* @llvm_pop_zone_stack()
+%newzone1862 = call %mzone* @llvm_peek_zone_stack()
+%zone_ptr1863 = bitcast %mzone* %newzone1862 to i8*
+store i8* %zone_ptr1863, i8** %_impzPtr
+%val1864 = load %NoteData*, %NoteData** %free_notePtr
+ret %NoteData* %val1864
 }
-@gsxtminstruments_ext78 = hidden constant [15 x i8] c"_anon_lambda_5\00"
+@gsxtminstruments_ext82 = hidden constant [15 x i8] c"_anon_lambda_5\00"
 define dllexport fastcc float @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1553(i8* %_impz,i8* %_impenv, float %in, i64 %time, i64 %chan, float* %dat) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%zone1949 = bitcast i8* %_impz to %mzone*
+%zone2011 = bitcast i8* %_impz to %mzone*
 ; setup environment
 %impenv = bitcast i8* %_impenv to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
 %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr_ = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %impenv, i32 0, i32 0
@@ -5126,202 +5230,202 @@ store i64 %chan, i64* %chanPtr
 store float* %dat, float** %datPtr
 
 ; promote local stack var allocations
-%tzone2033 = load i8*, i8** %_impzPtr
-%zone2034 = bitcast i8* %tzone2033 to %mzone*
-%ifptr1976 = alloca float
-%ifptr1977 = alloca i1
-%ifptr1981 = alloca i1
-%ifptr1988 = alloca i1
-%ifptr1982 = alloca i1
-%ifptr1959 = alloca {i8*, i8*, float (i8*, i8*, i64, i64)*}**
-%ifptr1960 = alloca i1
+%tzone2095 = load i8*, i8** %_impzPtr
+%zone2096 = bitcast i8* %tzone2095 to %mzone*
+%ifptr2038 = alloca float
+%ifptr2039 = alloca i1
+%ifptr2043 = alloca i1
+%ifptr2050 = alloca i1
+%ifptr2044 = alloca i1
+%ifptr2021 = alloca {i8*, i8*, float (i8*, i8*, i64, i64)*}**
+%ifptr2022 = alloca i1
 
 ; do set!
 store float 0x0, float* %outPtr
 ; setup loop
-%val1952 = load i64, i64* %polyPtr
+%val2014 = load i64, i64* %polyPtr
 store i64 0, i64* %kPtr
-%val2014 = load i64, i64* %kPtr
-%num2015 = add i64 %val1952, %val2014
-%comp2016 = icmp ult i64 %val1952, 1
-br i1 %comp2016, label %after1950, label %loop1950
+%val2076 = load i64, i64* %kPtr
+%num2077 = add i64 %val2014, %val2076
+%comp2078 = icmp ult i64 %val2014, 1
+br i1 %comp2078, label %after2012, label %loop2012
 
-loop1950:
+loop2012:
 ; do set!
-%val1953 = load i64, i64* %kPtr
-%val1954 = load %NoteData**, %NoteData*** %notesPtr
+%val2015 = load i64, i64* %kPtr
+%val2016 = load %NoteData**, %NoteData*** %notesPtr
 ; pointer ref
-%val1955 = getelementptr %NoteData*, %NoteData** %val1954, i64 %val1953
-%val1956 = load %NoteData*, %NoteData** %val1955
-store %NoteData* %val1956, %NoteData** %notePtr
+%val2017 = getelementptr %NoteData*, %NoteData** %val2016, i64 %val2015
+%val2018 = load %NoteData*, %NoteData** %val2017
+store %NoteData* %val2018, %NoteData** %notePtr
 ; do set!
-%val1957 = load %NoteData*, %NoteData** %notePtr
-%res1958 = call ccc i64 @note_starttime(%NoteData* %val1957)
-store i64 %res1958, i64* %starttimePtr
-%val1961 = load %NoteData*, %NoteData** %notePtr
-%res1962 = call ccc i1 @note_active_get(%NoteData* %val1961)
-br i1 %res1962, label %then1960, label %else1960
+%val2019 = load %NoteData*, %NoteData** %notePtr
+%res2020 = call ccc i64 @note_starttime(%NoteData* %val2019)
+store i64 %res2020, i64* %starttimePtr
+%val2023 = load %NoteData*, %NoteData** %notePtr
+%res2024 = call ccc i1 @note_active_get(%NoteData* %val2023)
+br i1 %res2024, label %then2022, label %else2022
 
-then1960:
-%res1963 = call ccc i1 @impc_false()
-store i1 %res1963, i1* %ifptr1960
-br label %ifcont1960
+then2022:
+%res2025 = call ccc i1 @impc_false()
+store i1 %res2025, i1* %ifptr2022
+br label %ifcont2022
 
-else1960:
-%res1964 = call ccc i1 @impc_true()
-store i1 %res1964, i1* %ifptr1960
-br label %ifcont1960
+else2022:
+%res2026 = call ccc i1 @impc_true()
+store i1 %res2026, i1* %ifptr2022
+br label %ifcont2022
 
-ifcont1960:
-%ifres1965 = load i1, i1* %ifptr1960
+ifcont2022:
+%ifres2027 = load i1, i1* %ifptr2022
 
-br i1 %ifres1965, label %then1959, label %else1959
+br i1 %ifres2027, label %then2021, label %else2021
 
-then1959:
-%val1966 = load i64, i64* %kPtr
-%val1967 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
-%null1968 = bitcast i8* null to i8*
-%val1969 = bitcast i8* %null1968 to {i8*, i8*, float (i8*, i8*, i64, i64)*}**
+then2021:
+%val2028 = load i64, i64* %kPtr
+%val2029 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
+%null2030 = bitcast i8* null to i8*
+%val2031 = bitcast i8* %null2030 to {i8*, i8*, float (i8*, i8*, i64, i64)*}**
 ; set pointer
-%val1970 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1967, i64 %val1966
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1969, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1970
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1969, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %ifptr1959
-br label %ifcont1959
+%val2032 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val2029, i64 %val2028
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val2031, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val2032
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val2031, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %ifptr2021
+br label %ifcont2021
 
-else1959:
-br label %ifcont1959
+else2021:
+br label %ifcont2021
 
-ifcont1959:
-%ifres1971 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %ifptr1959
+ifcont2021:
+%ifres2033 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %ifptr2021
 
 ; do set!
-%val1972 = load i64, i64* %kPtr
-%val1973 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
+%val2034 = load i64, i64* %kPtr
+%val2035 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
 ; pointer ref
-%val1974 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1973, i64 %val1972
-%val1975 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1974
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1975, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
-%val1978 = load i64, i64* %timePtr
-%val1979 = load i64, i64* %starttimePtr
-%cmp1980 = icmp sgt i64 %val1978, %val1979
-br i1 %cmp1980, label %then1977, label %else1977
+%val2036 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val2035, i64 %val2034
+%val2037 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val2036
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val2037, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
+%val2040 = load i64, i64* %timePtr
+%val2041 = load i64, i64* %starttimePtr
+%cmp2042 = icmp sgt i64 %val2040, %val2041
+br i1 %cmp2042, label %then2039, label %else2039
 
-then1977:
-%val1983 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
-%val1984 = icmp eq {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1983, null
-br i1 %val1984, label %then1982, label %else1982
+then2039:
+%val2045 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
+%val2046 = icmp eq {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val2045, null
+br i1 %val2046, label %then2044, label %else2044
 
-then1982:
-%res1985 = call ccc i1 @impc_false()
-store i1 %res1985, i1* %ifptr1982
-br label %ifcont1982
+then2044:
+%res2047 = call ccc i1 @impc_false()
+store i1 %res2047, i1* %ifptr2044
+br label %ifcont2044
 
-else1982:
-%res1986 = call ccc i1 @impc_true()
-store i1 %res1986, i1* %ifptr1982
-br label %ifcont1982
+else2044:
+%res2048 = call ccc i1 @impc_true()
+store i1 %res2048, i1* %ifptr2044
+br label %ifcont2044
 
-ifcont1982:
-%ifres1987 = load i1, i1* %ifptr1982
+ifcont2044:
+%ifres2049 = load i1, i1* %ifptr2044
 
-br i1 %ifres1987, label %then1981, label %else1981
+br i1 %ifres2049, label %then2043, label %else2043
 
-then1981:
-%val1989 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
-%val1990 = icmp eq {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1989, null
-br i1 %val1990, label %then1988, label %else1988
+then2043:
+%val2051 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
+%val2052 = icmp eq {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val2051, null
+br i1 %val2052, label %then2050, label %else2050
 
-then1988:
-%res1991 = call ccc i1 @impc_false()
-store i1 %res1991, i1* %ifptr1988
-br label %ifcont1988
+then2050:
+%res2053 = call ccc i1 @impc_false()
+store i1 %res2053, i1* %ifptr2050
+br label %ifcont2050
 
-else1988:
-%res1992 = call ccc i1 @impc_true()
-store i1 %res1992, i1* %ifptr1988
-br label %ifcont1988
+else2050:
+%res2054 = call ccc i1 @impc_true()
+store i1 %res2054, i1* %ifptr2050
+br label %ifcont2050
 
-ifcont1988:
-%ifres1993 = load i1, i1* %ifptr1988
+ifcont2050:
+%ifres2055 = load i1, i1* %ifptr2050
 
-store i1 %ifres1993, i1* %ifptr1981
-br label %ifcont1981
+store i1 %ifres2055, i1* %ifptr2043
+br label %ifcont2043
 
-else1981:
-%res1994 = call ccc i1 @impc_false()
-store i1 %res1994, i1* %ifptr1981
-br label %ifcont1981
+else2043:
+%res2056 = call ccc i1 @impc_false()
+store i1 %res2056, i1* %ifptr2043
+br label %ifcont2043
 
-ifcont1981:
-%ifres1995 = load i1, i1* %ifptr1981
+ifcont2043:
+%ifres2057 = load i1, i1* %ifptr2043
 
-store i1 %ifres1995, i1* %ifptr1977
-br label %ifcont1977
+store i1 %ifres2057, i1* %ifptr2039
+br label %ifcont2039
 
-else1977:
-%res1996 = call ccc i1 @impc_false()
-store i1 %res1996, i1* %ifptr1977
-br label %ifcont1977
+else2039:
+%res2058 = call ccc i1 @impc_false()
+store i1 %res2058, i1* %ifptr2039
+br label %ifcont2039
 
-ifcont1977:
-%ifres1997 = load i1, i1* %ifptr1977
+ifcont2039:
+%ifres2059 = load i1, i1* %ifptr2039
 
-br i1 %ifres1997, label %then1976, label %else1976
+br i1 %ifres2059, label %then2038, label %else2038
 
-then1976:
+then2038:
 ; do set!
-%val1998 = load float, float* %outPtr
-%val1999 = load i64, i64* %timePtr
-%val2000 = load i64, i64* %chanPtr
+%val2060 = load float, float* %outPtr
+%val2061 = load i64, i64* %timePtr
+%val2062 = load i64, i64* %chanPtr
 
 ; apply closure 
-%vval2001 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
-%val2002 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}*,{i8*, i8*, float (i8*, i8*, i64, i64)*}** %vval2001
-%fPtr2003 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}, {i8*, i8*, float (i8*, i8*, i64, i64)*}* %val2002, i32 0, i32 2
-%ePtr2004 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}, {i8*, i8*, float (i8*, i8*, i64, i64)*}* %val2002, i32 0, i32 1
-%f2005 = load float (i8*, i8*, i64, i64)*, float (i8*, i8*, i64, i64)** %fPtr2003
-%e2006 = load i8*, i8** %ePtr2004
-%tzone2007 = load i8*, i8** %_impzPtr
-%zone2008 = bitcast i8* %tzone2007 to %mzone*
-%z2009 = bitcast %mzone* %zone2008 to i8*
-%result2010 = tail call fastcc float %f2005(i8* %z2009, i8* %e2006, i64 %val1999, i64 %val2000)
-%val2011 = fmul float 0x3fd3333340000000, %result2010
-%val2012 = fadd float %val1998, %val2011
-store float %val2012, float* %outPtr
-store float %val2012, float* %ifptr1976
-br label %ifcont1976
+%vval2063 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr
+%val2064 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}*,{i8*, i8*, float (i8*, i8*, i64, i64)*}** %vval2063
+%fPtr2065 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}, {i8*, i8*, float (i8*, i8*, i64, i64)*}* %val2064, i32 0, i32 2
+%ePtr2066 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}, {i8*, i8*, float (i8*, i8*, i64, i64)*}* %val2064, i32 0, i32 1
+%f2067 = load float (i8*, i8*, i64, i64)*, float (i8*, i8*, i64, i64)** %fPtr2065
+%e2068 = load i8*, i8** %ePtr2066
+%tzone2069 = load i8*, i8** %_impzPtr
+%zone2070 = bitcast i8* %tzone2069 to %mzone*
+%z2071 = bitcast %mzone* %zone2070 to i8*
+%result2072 = tail call fastcc float %f2067(i8* %z2071, i8* %e2068, i64 %val2061, i64 %val2062)
+%val2073 = fmul float 0x3fd3333340000000, %result2072
+%val2074 = fadd float %val2060, %val2073
+store float %val2074, float* %outPtr
+store float %val2074, float* %ifptr2038
+br label %ifcont2038
 
-else1976:
-br label %ifcont1976
+else2038:
+br label %ifcont2038
 
-ifcont1976:
-%ifres2013 = load float, float* %ifptr1976
+ifcont2038:
+%ifres2075 = load float, float* %ifptr2038
 
-%loop_cnt1950 = load i64, i64* %kPtr
-%next1950 = add i64 %loop_cnt1950, 1
-store i64 %next1950, i64* %kPtr
-%cmp1950 = icmp ult i64 %next1950, %num2015
-br i1 %cmp1950, label %loop1950, label %after1950
+%loop_cnt2012 = load i64, i64* %kPtr
+%next2012 = add i64 %loop_cnt2012, 1
+store i64 %next2012, i64* %kPtr
+%cmp2012 = icmp ult i64 %next2012, %num2077
+br i1 %cmp2012, label %loop2012, label %after2012
 
-after1950:
-%val2018 = load float, float* %outPtr
-%val2019 = load i64, i64* %timePtr
-%val2020 = load i64, i64* %chanPtr
-%val2021 = load float*, float** %datPtr
+after2012:
+%val2080 = load float, float* %outPtr
+%val2081 = load i64, i64* %timePtr
+%val2082 = load i64, i64* %chanPtr
+%val2083 = load float*, float** %datPtr
 
 ; apply closure 
-%vval2022 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr
-%val2023 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*,{i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %vval2022
-%fPtr2024 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %val2023, i32 0, i32 2
-%ePtr2025 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %val2023, i32 0, i32 1
-%f2026 = load float (i8*, i8*, float, i64, i64, float*)*, float (i8*, i8*, float, i64, i64, float*)** %fPtr2024
-%e2027 = load i8*, i8** %ePtr2025
-%tzone2028 = load i8*, i8** %_impzPtr
-%zone2029 = bitcast i8* %tzone2028 to %mzone*
-%z2030 = bitcast %mzone* %zone2029 to i8*
-%result2031 = tail call fastcc float %f2026(i8* %z2030, i8* %e2027, float %val2018, i64 %val2019, i64 %val2020, float* %val2021)
-%val2032 = fmul float 0x4000000000000000, %result2031
-ret float %val2032
+%vval2084 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr
+%val2085 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*,{i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %vval2084
+%fPtr2086 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %val2085, i32 0, i32 2
+%ePtr2087 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %val2085, i32 0, i32 1
+%f2088 = load float (i8*, i8*, float, i64, i64, float*)*, float (i8*, i8*, float, i64, i64, float*)** %fPtr2086
+%e2089 = load i8*, i8** %ePtr2087
+%tzone2090 = load i8*, i8** %_impzPtr
+%zone2091 = bitcast i8* %tzone2090 to %mzone*
+%z2092 = bitcast %mzone* %zone2091 to i8*
+%result2093 = tail call fastcc float %f2088(i8* %z2092, i8* %e2089, float %val2080, i64 %val2081, i64 %val2082, float* %val2083)
+%val2094 = fmul float 0x4000000000000000, %result2093
+ret float %val2094
 }
 define dllexport fastcc {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1551(i8* %_impz,i8* %_impenv, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %note_kernel, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %effect_kernel) nounwind {
 entry:
@@ -5447,11 +5551,11 @@ cont1555:
 ; let assign value to symbol i
 %dat_i = call i8* @llvm_zone_malloc(%mzone* %zone1628, i64 8)
 %iPtr = bitcast i8* %dat_i to i64*
-%tzone1906 = load i8*, i8** %_impzPtr
-%zone1907 = bitcast i8* %tzone1906 to %mzone*
+%tzone1968 = load i8*, i8** %_impzPtr
+%zone1969 = bitcast i8* %tzone1968 to %mzone*
 
 ; let assign value to symbol new_note
-%dat_new_note = call i8* @llvm_zone_malloc(%mzone* %zone1907, i64 8)
+%dat_new_note = call i8* @llvm_zone_malloc(%mzone* %zone1969, i64 8)
 %new_notePtr = bitcast i8* %dat_new_note to { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***
 
 ; let value assignment
@@ -5556,463 +5660,463 @@ store i64 %k, i64* %kPtr
 %i = select i1 true, i64 0, i64 0
 store i64 %i, i64* %iPtr
 
-%tzone1807 = load i8*, i8** %_impzPtr
-%zone1808 = bitcast i8* %tzone1807 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone1808)
+%tzone1869 = load i8*, i8** %_impzPtr
+%zone1870 = bitcast i8* %tzone1869 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone1870)
 ; malloc closure structure
-%clsptr1809 = call i8* @llvm_zone_malloc(%mzone* %zone1808, i64 24)
-%closure1810 = bitcast i8* %clsptr1809 to { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*
+%clsptr1871 = call i8* @llvm_zone_malloc(%mzone* %zone1870, i64 24)
+%closure1872 = bitcast i8* %clsptr1871 to { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*
 
 ; malloc environment structure
-%envptr1811 = call i8* @llvm_zone_malloc(%mzone* %zone1808, i64 136)
-%environment1812 = bitcast i8* %envptr1811 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}*
+%envptr1873 = call i8* @llvm_zone_malloc(%mzone* %zone1870, i64 136)
+%environment1874 = bitcast i8* %envptr1873 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}*
 
 ; malloc closure address table
-%addytable1813 = call %clsvar* @new_address_table()
-%var1814 = bitcast [227 x i8]* @gsxtminstruments_ext61 to i8*
-%var1815 = bitcast [299 x i8]* @gsxtminstruments_ext62 to i8*
-%addytable1816 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1814, i32 0, i8* %var1815, i32 3, %clsvar* %addytable1813)
-%var1817 = bitcast [14 x i8]* @gsxtminstruments_ext63 to i8*
-%var1818 = bitcast [57 x i8]* @gsxtminstruments_ext64 to i8*
-%addytable1819 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1817, i32 8, i8* %var1818, i32 3, %clsvar* %addytable1816)
-%var1820 = bitcast [12 x i8]* @gsxtminstruments_ext65 to i8*
-%var1821 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
-%addytable1822 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1820, i32 16, i8* %var1821, i32 3, %clsvar* %addytable1819)
-%var1823 = bitcast [9 x i8]* @gsxtminstruments_ext66 to i8*
-%var1824 = bitcast [74 x i8]* @gsxtminstruments_ext67 to i8*
-%addytable1825 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1823, i32 24, i8* %var1824, i32 3, %clsvar* %addytable1822)
-%var1826 = bitcast [2 x i8]* @gsxtminstruments_ext68 to i8*
-%var1827 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable1828 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1826, i32 32, i8* %var1827, i32 3, %clsvar* %addytable1825)
-%var1829 = bitcast [2 x i8]* @gsxtminstruments_ext69 to i8*
-%var1830 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable1831 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1829, i32 40, i8* %var1830, i32 3, %clsvar* %addytable1828)
-%var1832 = bitcast [4 x i8]* @gsxtminstruments_ext70 to i8*
-%var1833 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable1834 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1832, i32 48, i8* %var1833, i32 3, %clsvar* %addytable1831)
-%var1835 = bitcast [10 x i8]* @gsxtminstruments_ext54 to i8*
-%var1836 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable1837 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1835, i32 56, i8* %var1836, i32 3, %clsvar* %addytable1834)
-%var1838 = bitcast [7 x i8]* @gsxtminstruments_ext71 to i8*
-%var1839 = bitcast [42 x i8]* @gsxtminstruments_ext56 to i8*
-%addytable1840 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1838, i32 64, i8* %var1839, i32 3, %clsvar* %addytable1837)
-%var1841 = bitcast [8 x i8]* @gsxtminstruments_ext72 to i8*
-%var1842 = bitcast [43 x i8]* @gsxtminstruments_ext73 to i8*
-%addytable1843 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1841, i32 72, i8* %var1842, i32 3, %clsvar* %addytable1840)
-%var1844 = bitcast [5 x i8]* @gsxtminstruments_ext74 to i8*
-%var1845 = bitcast [11 x i8]* @gsxtminstruments_ext30 to i8*
-%addytable1846 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1844, i32 80, i8* %var1845, i32 3, %clsvar* %addytable1843)
-%var1847 = bitcast [6 x i8]* @gsxtminstruments_ext75 to i8*
-%var1848 = bitcast [12 x i8]* @gsxtminstruments_ext76 to i8*
-%addytable1849 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1847, i32 88, i8* %var1848, i32 3, %clsvar* %addytable1846)
-%var1850 = bitcast [16 x i8]* @gsxtminstruments_ext25 to i8*
-%var1851 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable1852 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1850, i32 96, i8* %var1851, i32 3, %clsvar* %addytable1849)
-%var1853 = bitcast [17 x i8]* @gsxtminstruments_ext23 to i8*
-%var1854 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable1855 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1853, i32 104, i8* %var1854, i32 3, %clsvar* %addytable1852)
-%var1856 = bitcast [15 x i8]* @gsxtminstruments_ext26 to i8*
-%var1857 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable1858 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1856, i32 112, i8* %var1857, i32 3, %clsvar* %addytable1855)
-%var1859 = bitcast [8 x i8]* @gsxtminstruments_ext27 to i8*
-%var1860 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
-%addytable1861 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1859, i32 120, i8* %var1860, i32 3, %clsvar* %addytable1858)
-%var1862 = bitcast [5 x i8]* @gsxtminstruments_ext77 to i8*
-%var1863 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable1864 = call %clsvar* @add_address_table(%mzone* %zone1808, i8* %var1862, i32 128, i8* %var1863, i32 3, %clsvar* %addytable1861)
-%address-table1865 = bitcast %clsvar* %addytable1864 to i8*
+%addytable1875 = call %clsvar* @new_address_table()
+%var1876 = bitcast [227 x i8]* @gsxtminstruments_ext65 to i8*
+%var1877 = bitcast [299 x i8]* @gsxtminstruments_ext66 to i8*
+%addytable1878 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1876, i32 0, i8* %var1877, i32 3, %clsvar* %addytable1875)
+%var1879 = bitcast [14 x i8]* @gsxtminstruments_ext67 to i8*
+%var1880 = bitcast [57 x i8]* @gsxtminstruments_ext68 to i8*
+%addytable1881 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1879, i32 8, i8* %var1880, i32 3, %clsvar* %addytable1878)
+%var1882 = bitcast [12 x i8]* @gsxtminstruments_ext69 to i8*
+%var1883 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
+%addytable1884 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1882, i32 16, i8* %var1883, i32 3, %clsvar* %addytable1881)
+%var1885 = bitcast [9 x i8]* @gsxtminstruments_ext70 to i8*
+%var1886 = bitcast [74 x i8]* @gsxtminstruments_ext71 to i8*
+%addytable1887 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1885, i32 24, i8* %var1886, i32 3, %clsvar* %addytable1884)
+%var1888 = bitcast [2 x i8]* @gsxtminstruments_ext72 to i8*
+%var1889 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable1890 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1888, i32 32, i8* %var1889, i32 3, %clsvar* %addytable1887)
+%var1891 = bitcast [2 x i8]* @gsxtminstruments_ext73 to i8*
+%var1892 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable1893 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1891, i32 40, i8* %var1892, i32 3, %clsvar* %addytable1890)
+%var1894 = bitcast [4 x i8]* @gsxtminstruments_ext74 to i8*
+%var1895 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable1896 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1894, i32 48, i8* %var1895, i32 3, %clsvar* %addytable1893)
+%var1897 = bitcast [10 x i8]* @gsxtminstruments_ext54 to i8*
+%var1898 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable1899 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1897, i32 56, i8* %var1898, i32 3, %clsvar* %addytable1896)
+%var1900 = bitcast [7 x i8]* @gsxtminstruments_ext75 to i8*
+%var1901 = bitcast [42 x i8]* @gsxtminstruments_ext56 to i8*
+%addytable1902 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1900, i32 64, i8* %var1901, i32 3, %clsvar* %addytable1899)
+%var1903 = bitcast [8 x i8]* @gsxtminstruments_ext76 to i8*
+%var1904 = bitcast [43 x i8]* @gsxtminstruments_ext77 to i8*
+%addytable1905 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1903, i32 72, i8* %var1904, i32 3, %clsvar* %addytable1902)
+%var1906 = bitcast [5 x i8]* @gsxtminstruments_ext78 to i8*
+%var1907 = bitcast [11 x i8]* @gsxtminstruments_ext30 to i8*
+%addytable1908 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1906, i32 80, i8* %var1907, i32 3, %clsvar* %addytable1905)
+%var1909 = bitcast [6 x i8]* @gsxtminstruments_ext79 to i8*
+%var1910 = bitcast [12 x i8]* @gsxtminstruments_ext80 to i8*
+%addytable1911 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1909, i32 88, i8* %var1910, i32 3, %clsvar* %addytable1908)
+%var1912 = bitcast [16 x i8]* @gsxtminstruments_ext25 to i8*
+%var1913 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable1914 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1912, i32 96, i8* %var1913, i32 3, %clsvar* %addytable1911)
+%var1915 = bitcast [17 x i8]* @gsxtminstruments_ext23 to i8*
+%var1916 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable1917 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1915, i32 104, i8* %var1916, i32 3, %clsvar* %addytable1914)
+%var1918 = bitcast [15 x i8]* @gsxtminstruments_ext26 to i8*
+%var1919 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable1920 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1918, i32 112, i8* %var1919, i32 3, %clsvar* %addytable1917)
+%var1921 = bitcast [8 x i8]* @gsxtminstruments_ext27 to i8*
+%var1922 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
+%addytable1923 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1921, i32 120, i8* %var1922, i32 3, %clsvar* %addytable1920)
+%var1924 = bitcast [5 x i8]* @gsxtminstruments_ext81 to i8*
+%var1925 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable1926 = call %clsvar* @add_address_table(%mzone* %zone1870, i8* %var1924, i32 128, i8* %var1925, i32 3, %clsvar* %addytable1923)
+%address-table1927 = bitcast %clsvar* %addytable1926 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table1900 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1810, i32 0, i32 0
-store i8* %address-table1865, i8** %closure.table1900
-%closure.env1901 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1810, i32 0, i32 1
-store i8* %envptr1811, i8** %closure.env1901
-%closure.func1902 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1810, i32 0, i32 2
-store %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1552, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)** %closure.func1902
-%closure_size1903 = call i64 @llvm_zone_mark_size(%mzone* %zone1808)
-call void @llvm_zone_ptr_set_size(i8* %clsptr1809, i64 %closure_size1903)
-%wrapper_ptr1904 = call i8* @llvm_zone_malloc(%mzone* %zone1808, i64 8)
-%closure_wrapper1905 = bitcast i8* %wrapper_ptr1904 to { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**
-store { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1810, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1905
+%closure.table1962 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1872, i32 0, i32 0
+store i8* %address-table1927, i8** %closure.table1962
+%closure.env1963 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1872, i32 0, i32 1
+store i8* %envptr1873, i8** %closure.env1963
+%closure.func1964 = getelementptr { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1872, i32 0, i32 2
+store %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1552, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)** %closure.func1964
+%closure_size1965 = call i64 @llvm_zone_mark_size(%mzone* %zone1870)
+call void @llvm_zone_ptr_set_size(i8* %clsptr1871, i64 %closure_size1965)
+%wrapper_ptr1966 = call i8* @llvm_zone_malloc(%mzone* %zone1870, i64 8)
+%closure_wrapper1967 = bitcast i8* %wrapper_ptr1966 to { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**
+store { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}* %closure1872, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1967
 
 ; let value assignment
-%new_note = select i1 true, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1905, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1905
+%new_note = select i1 true, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1967, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %closure_wrapper1967
 store { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}** %new_note, { i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*** %new_notePtr
 
 ; add data to environment
 ; don't need to alloc for env var make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd
-%tmp_envptr1867 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 0
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr1867
+%tmp_envptr1929 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 0
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr1929
 
 ; don't need to alloc for env var effect_kernel
-%tmp_envptr1869 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 1
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr1869
+%tmp_envptr1931 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 1
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr1931
 
 ; don't need to alloc for env var note_kernel
-%tmp_envptr1871 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 2
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr1871
+%tmp_envptr1933 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 2
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr1933
 
 ; don't need to alloc for env var new_note
-%tmp_envptr1873 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 3
-store {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*** %new_notePtr, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**** %tmp_envptr1873
+%tmp_envptr1935 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 3
+store {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*** %new_notePtr, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**** %tmp_envptr1935
 
 ; don't need to alloc for env var i
-%tmp_envptr1875 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 4
-store i64* %iPtr, i64** %tmp_envptr1875
+%tmp_envptr1937 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 4
+store i64* %iPtr, i64** %tmp_envptr1937
 
 ; don't need to alloc for env var k
-%tmp_envptr1877 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 5
-store i64* %kPtr, i64** %tmp_envptr1877
+%tmp_envptr1939 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 5
+store i64* %kPtr, i64** %tmp_envptr1939
 
 ; don't need to alloc for env var out
-%tmp_envptr1879 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 6
-store float* %outPtr, float** %tmp_envptr1879
+%tmp_envptr1941 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 6
+store float* %outPtr, float** %tmp_envptr1941
 
 ; don't need to alloc for env var starttime
-%tmp_envptr1881 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 7
-store i64* %starttimePtr, i64** %tmp_envptr1881
+%tmp_envptr1943 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 7
+store i64* %starttimePtr, i64** %tmp_envptr1943
 
 ; don't need to alloc for env var kernel
-%tmp_envptr1883 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 8
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %tmp_envptr1883
+%tmp_envptr1945 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 8
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %tmp_envptr1945
 
 ; don't need to alloc for env var kernels
-%tmp_envptr1885 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 9
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}***** %tmp_envptr1885
+%tmp_envptr1947 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 9
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}***** %tmp_envptr1947
 
 ; don't need to alloc for env var note
-%tmp_envptr1887 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 10
-store %NoteData** %notePtr, %NoteData*** %tmp_envptr1887
+%tmp_envptr1949 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 10
+store %NoteData** %notePtr, %NoteData*** %tmp_envptr1949
 
 ; don't need to alloc for env var notes
-%tmp_envptr1889 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 11
-store %NoteData*** %notesPtr, %NoteData**** %tmp_envptr1889
+%tmp_envptr1951 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 11
+store %NoteData*** %notesPtr, %NoteData**** %tmp_envptr1951
 
 ; don't need to alloc for env var samples_offsets
-%tmp_envptr1891 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 12
-store [20 x [128 x i64]]** %samples_offsetsPtr, [20 x [128 x i64]]*** %tmp_envptr1891
+%tmp_envptr1953 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 12
+store [20 x [128 x i64]]** %samples_offsetsPtr, [20 x [128 x i64]]*** %tmp_envptr1953
 
 ; don't need to alloc for env var samples_channels
-%tmp_envptr1893 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 13
-store [20 x [128 x i64]]** %samples_channelsPtr, [20 x [128 x i64]]*** %tmp_envptr1893
+%tmp_envptr1955 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 13
+store [20 x [128 x i64]]** %samples_channelsPtr, [20 x [128 x i64]]*** %tmp_envptr1955
 
 ; don't need to alloc for env var samples_length
-%tmp_envptr1895 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 14
-store [20 x [128 x i64]]** %samples_lengthPtr, [20 x [128 x i64]]*** %tmp_envptr1895
+%tmp_envptr1957 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 14
+store [20 x [128 x i64]]** %samples_lengthPtr, [20 x [128 x i64]]*** %tmp_envptr1957
 
 ; don't need to alloc for env var samples
-%tmp_envptr1897 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 15
-store [20 x [128 x float*]]** %samplesPtr, [20 x [128 x float*]]*** %tmp_envptr1897
+%tmp_envptr1959 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 15
+store [20 x [128 x float*]]** %samplesPtr, [20 x [128 x float*]]*** %tmp_envptr1959
 
 ; don't need to alloc for env var poly
-%tmp_envptr1899 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1812, i32 0, i32 16
-store i64* %polyPtr, i64** %tmp_envptr1899
+%tmp_envptr1961 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*}* %environment1874, i32 0, i32 16
+store i64* %polyPtr, i64** %tmp_envptr1961
 
 
 ; setup loop
 store i64 0, i64* %kPtr
-%val1924 = load i64, i64* %kPtr
-%num1925 = add i64 128, %val1924
-%comp1926 = icmp ult i64 128, 1
-br i1 %comp1926, label %after1908, label %loop1908
+%val1986 = load i64, i64* %kPtr
+%num1987 = add i64 128, %val1986
+%comp1988 = icmp ult i64 128, 1
+br i1 %comp1988, label %after1970, label %loop1970
 
-loop1908:
+loop1970:
 ; setup loop
 store i64 0, i64* %iPtr
-%val1920 = load i64, i64* %iPtr
-%num1921 = add i64 20, %val1920
-%comp1922 = icmp ult i64 20, 1
-br i1 %comp1922, label %after1909, label %loop1909
+%val1982 = load i64, i64* %iPtr
+%num1983 = add i64 20, %val1982
+%comp1984 = icmp ult i64 20, 1
+br i1 %comp1984, label %after1971, label %loop1971
 
-loop1909:
-%val1910 = load i64, i64* %kPtr
-%val1911 = load i64, i64* %iPtr
-%val1912 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_offsetsPtr
+loop1971:
+%val1972 = load i64, i64* %kPtr
+%val1973 = load i64, i64* %iPtr
+%val1974 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_offsetsPtr
 ; array ref
-%val1913 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1912, i32 0, i64 %val1911
+%val1975 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1974, i32 0, i64 %val1973
 ; set array
-%val1914 = getelementptr [128 x i64], [128 x i64]* %val1913, i32 0, i64 %val1910
-store i64 0, i64* %val1914
-%val1915 = load i64, i64* %kPtr
-%val1916 = load i64, i64* %iPtr
-%val1917 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
+%val1976 = getelementptr [128 x i64], [128 x i64]* %val1975, i32 0, i64 %val1972
+store i64 0, i64* %val1976
+%val1977 = load i64, i64* %kPtr
+%val1978 = load i64, i64* %iPtr
+%val1979 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
 ; array ref
-%val1918 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1917, i32 0, i64 %val1916
+%val1980 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val1979, i32 0, i64 %val1978
 ; set array
-%val1919 = getelementptr [128 x i64], [128 x i64]* %val1918, i32 0, i64 %val1915
-store i64 0, i64* %val1919
-%loop_cnt1909 = load i64, i64* %iPtr
-%next1909 = add i64 %loop_cnt1909, 1
-store i64 %next1909, i64* %iPtr
-%cmp1909 = icmp ult i64 %next1909, %num1921
-br i1 %cmp1909, label %loop1909, label %after1909
+%val1981 = getelementptr [128 x i64], [128 x i64]* %val1980, i32 0, i64 %val1977
+store i64 0, i64* %val1981
+%loop_cnt1971 = load i64, i64* %iPtr
+%next1971 = add i64 %loop_cnt1971, 1
+store i64 %next1971, i64* %iPtr
+%cmp1971 = icmp ult i64 %next1971, %num1983
+br i1 %cmp1971, label %loop1971, label %after1971
 
-after1909:
-%loop_cnt1908 = load i64, i64* %kPtr
-%next1908 = add i64 %loop_cnt1908, 1
-store i64 %next1908, i64* %kPtr
-%cmp1908 = icmp ult i64 %next1908, %num1925
-br i1 %cmp1908, label %loop1908, label %after1908
+after1971:
+%loop_cnt1970 = load i64, i64* %kPtr
+%next1970 = add i64 %loop_cnt1970, 1
+store i64 %next1970, i64* %kPtr
+%cmp1970 = icmp ult i64 %next1970, %num1987
+br i1 %cmp1970, label %loop1970, label %after1970
 
-after1908:
+after1970:
 ; setup loop
-%val1930 = load i64, i64* %polyPtr
+%val1992 = load i64, i64* %polyPtr
 store i64 0, i64* %iPtr
-%val1945 = load i64, i64* %iPtr
-%num1946 = add i64 %val1930, %val1945
-%comp1947 = icmp ult i64 %val1930, 1
-br i1 %comp1947, label %after1928, label %loop1928
+%val2007 = load i64, i64* %iPtr
+%num2008 = add i64 %val1992, %val2007
+%comp2009 = icmp ult i64 %val1992, 1
+br i1 %comp2009, label %after1990, label %loop1990
 
-loop1928:
-%val1931 = load i64, i64* %iPtr
-%val1932 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
-%null1933 = bitcast i8* null to i8*
-%val1934 = bitcast i8* %null1933 to {i8*, i8*, float (i8*, i8*, i64, i64)*}**
+loop1990:
+%val1993 = load i64, i64* %iPtr
+%val1994 = load {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr
+%null1995 = bitcast i8* null to i8*
+%val1996 = bitcast i8* %null1995 to {i8*, i8*, float (i8*, i8*, i64, i64)*}**
 ; set pointer
-%val1935 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1932, i64 %val1931
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1934, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1935
-%val1936 = load i64, i64* %iPtr
-%val1937 = load %NoteData**, %NoteData*** %notesPtr
-%val1938 = load i64, i64* %iPtr
-%res1939 = call ccc i1 @impc_false()
-%val1940 = mul i64 10, 1024
-%ret1941 = call %mzone* @llvm_zone_create(i64 %val1940)
-%val1942 = bitcast %mzone* %ret1941 to i8*
-%res1943 = call fastcc %NoteData* @NoteData_adhoc_W05vdGVEYXRhKixpNjQsaTY0LGZsb2F0LGZsb2F0LGk2NCxmbG9hdCxpMSxpNjQsaTgqXQ(i64 %val1938, i64 0, float 0x0, float 0x0, i64 0, float 0x3ff0000000000000, i1 %res1939, i64 0, i8* %val1942)
+%val1997 = getelementptr {i8*, i8*, float (i8*, i8*, i64, i64)*}**, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1994, i64 %val1993
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}** %val1996, {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %val1997
+%val1998 = load i64, i64* %iPtr
+%val1999 = load %NoteData**, %NoteData*** %notesPtr
+%val2000 = load i64, i64* %iPtr
+%res2001 = call ccc i1 @impc_false()
+%val2002 = mul i64 10, 1024
+%ret2003 = call %mzone* @llvm_zone_create(i64 %val2002)
+%val2004 = bitcast %mzone* %ret2003 to i8*
+%res2005 = call fastcc %NoteData* @NoteData_adhoc_W05vdGVEYXRhKixpNjQsaTY0LGZsb2F0LGZsb2F0LGk2NCxmbG9hdCxpMSxpNjQsaTgqXQ(i64 %val2000, i64 0, float 0x0, float 0x0, i64 0, float 0x3ff0000000000000, i1 %res2001, i64 0, i8* %val2004)
 ; set pointer
-%val1944 = getelementptr %NoteData*, %NoteData** %val1937, i64 %val1936
-store %NoteData* %res1943, %NoteData** %val1944
-%loop_cnt1928 = load i64, i64* %iPtr
-%next1928 = add i64 %loop_cnt1928, 1
-store i64 %next1928, i64* %iPtr
-%cmp1928 = icmp ult i64 %next1928, %num1946
-br i1 %cmp1928, label %loop1928, label %after1928
+%val2006 = getelementptr %NoteData*, %NoteData** %val1999, i64 %val1998
+store %NoteData* %res2005, %NoteData** %val2006
+%loop_cnt1990 = load i64, i64* %iPtr
+%next1990 = add i64 %loop_cnt1990, 1
+store i64 %next1990, i64* %iPtr
+%cmp1990 = icmp ult i64 %next1990, %num2008
+br i1 %cmp1990, label %loop1990, label %after1990
 
-after1928:
-%tzone2139 = load i8*, i8** %_impzPtr
-%zone2140 = bitcast i8* %tzone2139 to %mzone*
+after1990:
+%tzone2201 = load i8*, i8** %_impzPtr
+%zone2202 = bitcast i8* %tzone2201 to %mzone*
 
 ; let assign value to symbol _anon_lambda_5
-%dat__anon_lambda_5 = call i8* @llvm_zone_malloc(%mzone* %zone2140, i64 8)
+%dat__anon_lambda_5 = call i8* @llvm_zone_malloc(%mzone* %zone2202, i64 8)
 %_anon_lambda_5Ptr = bitcast i8* %dat__anon_lambda_5 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***
-%tzone2035 = load i8*, i8** %_impzPtr
-%zone2036 = bitcast i8* %tzone2035 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone2036)
+%tzone2097 = load i8*, i8** %_impzPtr
+%zone2098 = bitcast i8* %tzone2097 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone2098)
 ; malloc closure structure
-%clsptr2037 = call i8* @llvm_zone_malloc(%mzone* %zone2036, i64 24)
-%closure2038 = bitcast i8* %clsptr2037 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*
+%clsptr2099 = call i8* @llvm_zone_malloc(%mzone* %zone2098, i64 24)
+%closure2100 = bitcast i8* %clsptr2099 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*
 
 ; malloc environment structure
-%envptr2039 = call i8* @llvm_zone_malloc(%mzone* %zone2036, i64 144)
-%environment2040 = bitcast i8* %envptr2039 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
+%envptr2101 = call i8* @llvm_zone_malloc(%mzone* %zone2098, i64 144)
+%environment2102 = bitcast i8* %envptr2101 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
 
 ; malloc closure address table
-%addytable2041 = call %clsvar* @new_address_table()
-%var2042 = bitcast [227 x i8]* @gsxtminstruments_ext61 to i8*
-%var2043 = bitcast [299 x i8]* @gsxtminstruments_ext62 to i8*
-%addytable2044 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2042, i32 0, i8* %var2043, i32 3, %clsvar* %addytable2041)
-%var2045 = bitcast [14 x i8]* @gsxtminstruments_ext63 to i8*
-%var2046 = bitcast [57 x i8]* @gsxtminstruments_ext64 to i8*
-%addytable2047 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2045, i32 8, i8* %var2046, i32 3, %clsvar* %addytable2044)
-%var2048 = bitcast [12 x i8]* @gsxtminstruments_ext65 to i8*
-%var2049 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
-%addytable2050 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2048, i32 16, i8* %var2049, i32 3, %clsvar* %addytable2047)
-%var2051 = bitcast [9 x i8]* @gsxtminstruments_ext66 to i8*
-%var2052 = bitcast [74 x i8]* @gsxtminstruments_ext67 to i8*
-%addytable2053 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2051, i32 24, i8* %var2052, i32 3, %clsvar* %addytable2050)
-%var2054 = bitcast [2 x i8]* @gsxtminstruments_ext68 to i8*
-%var2055 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable2056 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2054, i32 32, i8* %var2055, i32 3, %clsvar* %addytable2053)
-%var2057 = bitcast [2 x i8]* @gsxtminstruments_ext69 to i8*
-%var2058 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable2059 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2057, i32 40, i8* %var2058, i32 3, %clsvar* %addytable2056)
-%var2060 = bitcast [4 x i8]* @gsxtminstruments_ext70 to i8*
-%var2061 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2062 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2060, i32 48, i8* %var2061, i32 3, %clsvar* %addytable2059)
-%var2063 = bitcast [10 x i8]* @gsxtminstruments_ext54 to i8*
-%var2064 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable2065 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2063, i32 56, i8* %var2064, i32 3, %clsvar* %addytable2062)
-%var2066 = bitcast [7 x i8]* @gsxtminstruments_ext71 to i8*
-%var2067 = bitcast [42 x i8]* @gsxtminstruments_ext56 to i8*
-%addytable2068 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2066, i32 64, i8* %var2067, i32 3, %clsvar* %addytable2065)
-%var2069 = bitcast [8 x i8]* @gsxtminstruments_ext72 to i8*
-%var2070 = bitcast [43 x i8]* @gsxtminstruments_ext73 to i8*
-%addytable2071 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2069, i32 72, i8* %var2070, i32 3, %clsvar* %addytable2068)
-%var2072 = bitcast [5 x i8]* @gsxtminstruments_ext74 to i8*
-%var2073 = bitcast [11 x i8]* @gsxtminstruments_ext30 to i8*
-%addytable2074 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2072, i32 80, i8* %var2073, i32 3, %clsvar* %addytable2071)
-%var2075 = bitcast [6 x i8]* @gsxtminstruments_ext75 to i8*
-%var2076 = bitcast [12 x i8]* @gsxtminstruments_ext76 to i8*
-%addytable2077 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2075, i32 88, i8* %var2076, i32 3, %clsvar* %addytable2074)
-%var2078 = bitcast [16 x i8]* @gsxtminstruments_ext25 to i8*
-%var2079 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable2080 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2078, i32 96, i8* %var2079, i32 3, %clsvar* %addytable2077)
-%var2081 = bitcast [17 x i8]* @gsxtminstruments_ext23 to i8*
-%var2082 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable2083 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2081, i32 104, i8* %var2082, i32 3, %clsvar* %addytable2080)
-%var2084 = bitcast [15 x i8]* @gsxtminstruments_ext26 to i8*
-%var2085 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%addytable2086 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2084, i32 112, i8* %var2085, i32 3, %clsvar* %addytable2083)
-%var2087 = bitcast [8 x i8]* @gsxtminstruments_ext27 to i8*
-%var2088 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
-%addytable2089 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2087, i32 120, i8* %var2088, i32 3, %clsvar* %addytable2086)
-%var2090 = bitcast [5 x i8]* @gsxtminstruments_ext77 to i8*
-%var2091 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
-%addytable2092 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2090, i32 128, i8* %var2091, i32 3, %clsvar* %addytable2089)
-%var2093 = bitcast [15 x i8]* @gsxtminstruments_ext78 to i8*
-%var2094 = bitcast [57 x i8]* @gsxtminstruments_ext64 to i8*
-%addytable2095 = call %clsvar* @add_address_table(%mzone* %zone2036, i8* %var2093, i32 136, i8* %var2094, i32 3, %clsvar* %addytable2092)
-%address-table2096 = bitcast %clsvar* %addytable2095 to i8*
+%addytable2103 = call %clsvar* @new_address_table()
+%var2104 = bitcast [227 x i8]* @gsxtminstruments_ext65 to i8*
+%var2105 = bitcast [299 x i8]* @gsxtminstruments_ext66 to i8*
+%addytable2106 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2104, i32 0, i8* %var2105, i32 3, %clsvar* %addytable2103)
+%var2107 = bitcast [14 x i8]* @gsxtminstruments_ext67 to i8*
+%var2108 = bitcast [57 x i8]* @gsxtminstruments_ext68 to i8*
+%addytable2109 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2107, i32 8, i8* %var2108, i32 3, %clsvar* %addytable2106)
+%var2110 = bitcast [12 x i8]* @gsxtminstruments_ext69 to i8*
+%var2111 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
+%addytable2112 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2110, i32 16, i8* %var2111, i32 3, %clsvar* %addytable2109)
+%var2113 = bitcast [9 x i8]* @gsxtminstruments_ext70 to i8*
+%var2114 = bitcast [74 x i8]* @gsxtminstruments_ext71 to i8*
+%addytable2115 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2113, i32 24, i8* %var2114, i32 3, %clsvar* %addytable2112)
+%var2116 = bitcast [2 x i8]* @gsxtminstruments_ext72 to i8*
+%var2117 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable2118 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2116, i32 32, i8* %var2117, i32 3, %clsvar* %addytable2115)
+%var2119 = bitcast [2 x i8]* @gsxtminstruments_ext73 to i8*
+%var2120 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable2121 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2119, i32 40, i8* %var2120, i32 3, %clsvar* %addytable2118)
+%var2122 = bitcast [4 x i8]* @gsxtminstruments_ext74 to i8*
+%var2123 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2124 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2122, i32 48, i8* %var2123, i32 3, %clsvar* %addytable2121)
+%var2125 = bitcast [10 x i8]* @gsxtminstruments_ext54 to i8*
+%var2126 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable2127 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2125, i32 56, i8* %var2126, i32 3, %clsvar* %addytable2124)
+%var2128 = bitcast [7 x i8]* @gsxtminstruments_ext75 to i8*
+%var2129 = bitcast [42 x i8]* @gsxtminstruments_ext56 to i8*
+%addytable2130 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2128, i32 64, i8* %var2129, i32 3, %clsvar* %addytable2127)
+%var2131 = bitcast [8 x i8]* @gsxtminstruments_ext76 to i8*
+%var2132 = bitcast [43 x i8]* @gsxtminstruments_ext77 to i8*
+%addytable2133 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2131, i32 72, i8* %var2132, i32 3, %clsvar* %addytable2130)
+%var2134 = bitcast [5 x i8]* @gsxtminstruments_ext78 to i8*
+%var2135 = bitcast [11 x i8]* @gsxtminstruments_ext30 to i8*
+%addytable2136 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2134, i32 80, i8* %var2135, i32 3, %clsvar* %addytable2133)
+%var2137 = bitcast [6 x i8]* @gsxtminstruments_ext79 to i8*
+%var2138 = bitcast [12 x i8]* @gsxtminstruments_ext80 to i8*
+%addytable2139 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2137, i32 88, i8* %var2138, i32 3, %clsvar* %addytable2136)
+%var2140 = bitcast [16 x i8]* @gsxtminstruments_ext25 to i8*
+%var2141 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable2142 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2140, i32 96, i8* %var2141, i32 3, %clsvar* %addytable2139)
+%var2143 = bitcast [17 x i8]* @gsxtminstruments_ext23 to i8*
+%var2144 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable2145 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2143, i32 104, i8* %var2144, i32 3, %clsvar* %addytable2142)
+%var2146 = bitcast [15 x i8]* @gsxtminstruments_ext26 to i8*
+%var2147 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%addytable2148 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2146, i32 112, i8* %var2147, i32 3, %clsvar* %addytable2145)
+%var2149 = bitcast [8 x i8]* @gsxtminstruments_ext27 to i8*
+%var2150 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
+%addytable2151 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2149, i32 120, i8* %var2150, i32 3, %clsvar* %addytable2148)
+%var2152 = bitcast [5 x i8]* @gsxtminstruments_ext81 to i8*
+%var2153 = bitcast [4 x i8]* @gsxtminstruments_ext21 to i8*
+%addytable2154 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2152, i32 128, i8* %var2153, i32 3, %clsvar* %addytable2151)
+%var2155 = bitcast [15 x i8]* @gsxtminstruments_ext82 to i8*
+%var2156 = bitcast [57 x i8]* @gsxtminstruments_ext68 to i8*
+%addytable2157 = call %clsvar* @add_address_table(%mzone* %zone2098, i8* %var2155, i32 136, i8* %var2156, i32 3, %clsvar* %addytable2154)
+%address-table2158 = bitcast %clsvar* %addytable2157 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table2133 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2038, i32 0, i32 0
-store i8* %address-table2096, i8** %closure.table2133
-%closure.env2134 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2038, i32 0, i32 1
-store i8* %envptr2039, i8** %closure.env2134
-%closure.func2135 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2038, i32 0, i32 2
-store float (i8*, i8*, float, i64, i64, float*)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1553, float (i8*, i8*, float, i64, i64, float*)** %closure.func2135
-%closure_size2136 = call i64 @llvm_zone_mark_size(%mzone* %zone2036)
-call void @llvm_zone_ptr_set_size(i8* %clsptr2037, i64 %closure_size2136)
-%wrapper_ptr2137 = call i8* @llvm_zone_malloc(%mzone* %zone2036, i64 8)
-%closure_wrapper2138 = bitcast i8* %wrapper_ptr2137 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**
-store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2038, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2138
+%closure.table2195 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2100, i32 0, i32 0
+store i8* %address-table2158, i8** %closure.table2195
+%closure.env2196 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2100, i32 0, i32 1
+store i8* %envptr2101, i8** %closure.env2196
+%closure.func2197 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2100, i32 0, i32 2
+store float (i8*, i8*, float, i64, i64, float*)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1553, float (i8*, i8*, float, i64, i64, float*)** %closure.func2197
+%closure_size2198 = call i64 @llvm_zone_mark_size(%mzone* %zone2098)
+call void @llvm_zone_ptr_set_size(i8* %clsptr2099, i64 %closure_size2198)
+%wrapper_ptr2199 = call i8* @llvm_zone_malloc(%mzone* %zone2098, i64 8)
+%closure_wrapper2200 = bitcast i8* %wrapper_ptr2199 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**
+store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2100, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2200
 
 ; let value assignment
-%_anon_lambda_5 = select i1 true, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2138, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2138
+%_anon_lambda_5 = select i1 true, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2200, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2200
 store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %_anon_lambda_5, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_5Ptr
 
 ; add data to environment
 ; don't need to alloc for env var make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd
-%tmp_envptr2098 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 0
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr2098
+%tmp_envptr2160 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 0
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr2160
 
 ; don't need to alloc for env var effect_kernel
-%tmp_envptr2100 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 1
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2100
+%tmp_envptr2162 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 1
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %effect_kernelPtr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2162
 
 ; don't need to alloc for env var note_kernel
-%tmp_envptr2102 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 2
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr2102
+%tmp_envptr2164 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 2
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %note_kernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr2164
 
 ; don't need to alloc for env var new_note
-%tmp_envptr2104 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 3
-store {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*** %new_notePtr, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**** %tmp_envptr2104
+%tmp_envptr2166 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 3
+store {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}*** %new_notePtr, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}**** %tmp_envptr2166
 
 ; don't need to alloc for env var i
-%tmp_envptr2106 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 4
-store i64* %iPtr, i64** %tmp_envptr2106
+%tmp_envptr2168 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 4
+store i64* %iPtr, i64** %tmp_envptr2168
 
 ; don't need to alloc for env var k
-%tmp_envptr2108 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 5
-store i64* %kPtr, i64** %tmp_envptr2108
+%tmp_envptr2170 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 5
+store i64* %kPtr, i64** %tmp_envptr2170
 
 ; don't need to alloc for env var out
-%tmp_envptr2110 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 6
-store float* %outPtr, float** %tmp_envptr2110
+%tmp_envptr2172 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 6
+store float* %outPtr, float** %tmp_envptr2172
 
 ; don't need to alloc for env var starttime
-%tmp_envptr2112 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 7
-store i64* %starttimePtr, i64** %tmp_envptr2112
+%tmp_envptr2174 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 7
+store i64* %starttimePtr, i64** %tmp_envptr2174
 
 ; don't need to alloc for env var kernel
-%tmp_envptr2114 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 8
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %tmp_envptr2114
+%tmp_envptr2176 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 8
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}*** %kernelPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %tmp_envptr2176
 
 ; don't need to alloc for env var kernels
-%tmp_envptr2116 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 9
-store {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}***** %tmp_envptr2116
+%tmp_envptr2178 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 9
+store {i8*, i8*, float (i8*, i8*, i64, i64)*}**** %kernelsPtr, {i8*, i8*, float (i8*, i8*, i64, i64)*}***** %tmp_envptr2178
 
 ; don't need to alloc for env var note
-%tmp_envptr2118 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 10
-store %NoteData** %notePtr, %NoteData*** %tmp_envptr2118
+%tmp_envptr2180 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 10
+store %NoteData** %notePtr, %NoteData*** %tmp_envptr2180
 
 ; don't need to alloc for env var notes
-%tmp_envptr2120 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 11
-store %NoteData*** %notesPtr, %NoteData**** %tmp_envptr2120
+%tmp_envptr2182 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 11
+store %NoteData*** %notesPtr, %NoteData**** %tmp_envptr2182
 
 ; don't need to alloc for env var samples_offsets
-%tmp_envptr2122 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 12
-store [20 x [128 x i64]]** %samples_offsetsPtr, [20 x [128 x i64]]*** %tmp_envptr2122
+%tmp_envptr2184 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 12
+store [20 x [128 x i64]]** %samples_offsetsPtr, [20 x [128 x i64]]*** %tmp_envptr2184
 
 ; don't need to alloc for env var samples_channels
-%tmp_envptr2124 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 13
-store [20 x [128 x i64]]** %samples_channelsPtr, [20 x [128 x i64]]*** %tmp_envptr2124
+%tmp_envptr2186 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 13
+store [20 x [128 x i64]]** %samples_channelsPtr, [20 x [128 x i64]]*** %tmp_envptr2186
 
 ; don't need to alloc for env var samples_length
-%tmp_envptr2126 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 14
-store [20 x [128 x i64]]** %samples_lengthPtr, [20 x [128 x i64]]*** %tmp_envptr2126
+%tmp_envptr2188 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 14
+store [20 x [128 x i64]]** %samples_lengthPtr, [20 x [128 x i64]]*** %tmp_envptr2188
 
 ; don't need to alloc for env var samples
-%tmp_envptr2128 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 15
-store [20 x [128 x float*]]** %samplesPtr, [20 x [128 x float*]]*** %tmp_envptr2128
+%tmp_envptr2190 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 15
+store [20 x [128 x float*]]** %samplesPtr, [20 x [128 x float*]]*** %tmp_envptr2190
 
 ; don't need to alloc for env var poly
-%tmp_envptr2130 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 16
-store i64* %polyPtr, i64** %tmp_envptr2130
+%tmp_envptr2192 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 16
+store i64* %polyPtr, i64** %tmp_envptr2192
 
 ; don't need to alloc for env var _anon_lambda_5
-%tmp_envptr2132 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2040, i32 0, i32 17
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_5Ptr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2132
+%tmp_envptr2194 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, %NoteData* (i8*, i8*, i64, float, i64, float, i64, float*)*}***, i64*, i64*, float*, i64*, {i8*, i8*, float (i8*, i8*, i64, i64)*}***, {i8*, i8*, float (i8*, i8*, i64, i64)*}****, %NoteData**, %NoteData***, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x i64]]**, [20 x [128 x float*]]**, i64*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2102, i32 0, i32 17
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_5Ptr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2194
 
 
-%val2141 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_5Ptr
-ret {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2141
+%val2203 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_5Ptr
+ret {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2203
 }
-@gsxtminstruments_ext79 = hidden constant [280 x i8] c"make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd Scheme wrapper error: check the arg arity and types
+@gsxtminstruments_ext83 = hidden constant [280 x i8] c"make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd Scheme wrapper error: check the arg arity and types
 \00"
 define dllexport ccc {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd_maker(i8* %_impz) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%tzone2161 = load i8*, i8** %_impzPtr
-%zone2162 = bitcast i8* %tzone2161 to %mzone*
+%tzone2223 = load i8*, i8** %_impzPtr
+%zone2224 = bitcast i8* %tzone2223 to %mzone*
 
 ; let assign value to symbol make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd
-%dat_make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd = call i8* @llvm_zone_malloc(%mzone* %zone2162, i64 8)
+%dat_make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd = call i8* @llvm_zone_malloc(%mzone* %zone2224, i64 8)
 %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr = bitcast i8* %dat_make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***
-%tzone2142 = load i8*, i8** %_impzPtr
-%zone2143 = bitcast i8* %tzone2142 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone2143)
+%tzone2204 = load i8*, i8** %_impzPtr
+%zone2205 = bitcast i8* %tzone2204 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone2205)
 ; malloc closure structure
-%clsptr2144 = call i8* @llvm_zone_malloc(%mzone* %zone2143, i64 24)
-%closure2145 = bitcast i8* %clsptr2144 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*
+%clsptr2206 = call i8* @llvm_zone_malloc(%mzone* %zone2205, i64 24)
+%closure2207 = bitcast i8* %clsptr2206 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*
 
 ; malloc environment structure
-%envptr2146 = call i8* @llvm_zone_malloc(%mzone* %zone2143, i64 8)
-%environment2147 = bitcast i8* %envptr2146 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}*
+%envptr2208 = call i8* @llvm_zone_malloc(%mzone* %zone2205, i64 8)
+%environment2209 = bitcast i8* %envptr2208 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}*
 
 ; malloc closure address table
-%addytable2148 = call %clsvar* @new_address_table()
-%var2149 = bitcast [227 x i8]* @gsxtminstruments_ext61 to i8*
-%var2150 = bitcast [299 x i8]* @gsxtminstruments_ext62 to i8*
-%addytable2151 = call %clsvar* @add_address_table(%mzone* %zone2143, i8* %var2149, i32 0, i8* %var2150, i32 3, %clsvar* %addytable2148)
-%address-table2152 = bitcast %clsvar* %addytable2151 to i8*
+%addytable2210 = call %clsvar* @new_address_table()
+%var2211 = bitcast [227 x i8]* @gsxtminstruments_ext65 to i8*
+%var2212 = bitcast [299 x i8]* @gsxtminstruments_ext66 to i8*
+%addytable2213 = call %clsvar* @add_address_table(%mzone* %zone2205, i8* %var2211, i32 0, i8* %var2212, i32 3, %clsvar* %addytable2210)
+%address-table2214 = bitcast %clsvar* %addytable2213 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table2155 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2145, i32 0, i32 0
-store i8* %address-table2152, i8** %closure.table2155
-%closure.env2156 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2145, i32 0, i32 1
-store i8* %envptr2146, i8** %closure.env2156
-%closure.func2157 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2145, i32 0, i32 2
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1551, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)** %closure.func2157
-%closure_size2158 = call i64 @llvm_zone_mark_size(%mzone* %zone2143)
-call void @llvm_zone_ptr_set_size(i8* %clsptr2144, i64 %closure_size2158)
-%wrapper_ptr2159 = call i8* @llvm_zone_malloc(%mzone* %zone2143, i64 8)
-%closure_wrapper2160 = bitcast i8* %wrapper_ptr2159 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**
-store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2145, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2160
+%closure.table2217 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2207, i32 0, i32 0
+store i8* %address-table2214, i8** %closure.table2217
+%closure.env2218 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2207, i32 0, i32 1
+store i8* %envptr2208, i8** %closure.env2218
+%closure.func2219 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2207, i32 0, i32 2
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)* @make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd__1551, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)** %closure.func2219
+%closure_size2220 = call i64 @llvm_zone_mark_size(%mzone* %zone2205)
+call void @llvm_zone_ptr_set_size(i8* %clsptr2206, i64 %closure_size2220)
+%wrapper_ptr2221 = call i8* @llvm_zone_malloc(%mzone* %zone2205, i64 8)
+%closure_wrapper2222 = bitcast i8* %wrapper_ptr2221 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**
+store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}* %closure2207, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2222
 
 ; let value assignment
-%make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd = select i1 true, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2160, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2160
+%make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd = select i1 true, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2222, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %closure_wrapper2222
 store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr
 
 ; add data to environment
 ; don't need to alloc for env var make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpd
-%tmp_envptr2154 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}* %environment2147, i32 0, i32 0
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr2154
+%tmp_envptr2216 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}***}* %environment2209, i32 0, i32 0
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**** %tmp_envptr2216
 
 
-%val2163 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr
-ret {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %val2163
+%val2225 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}*** %make_instrument_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qLFtbZmxvYXQsaTY0LGk2NF0qLE5vdGVEYXRhKix8MTI4LGZsb2F0KnwqLHwxMjgsaTY0fCosfDEyOCxpNjR8Kix8MTI4LGk2NHwqLGk2NCxpNjQsZmxvYXQqXSosW2Zsb2F0LGZsb2F0LGk2NCxpNjQsZmxvYXQqXSpdPtr
+ret {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**)*}** %val2225
 }
 
 
@@ -6101,8 +6205,8 @@ arg_0_true:
 br label %arg_0_continue
 
 arg_0_false:
-%var2164 = bitcast [280 x i8]* @gsxtminstruments_ext79 to i8*
-call i32 (i8*, ...) @printf(i8* %var2164)
+%var2226 = bitcast [280 x i8]* @gsxtminstruments_ext83 to i8*
+call i32 (i8*, ...) @printf(i8* %var2226)
 %arg_0_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_0_errret
 
@@ -6118,8 +6222,8 @@ arg_1_true:
 br label %arg_1_continue
 
 arg_1_false:
-%var2165 = bitcast [280 x i8]* @gsxtminstruments_ext79 to i8*
-call i32 (i8*, ...) @printf(i8* %var2165)
+%var2227 = bitcast [280 x i8]* @gsxtminstruments_ext83 to i8*
+call i32 (i8*, ...) @printf(i8* %var2227)
 %arg_1_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_1_errret
 
@@ -6165,24 +6269,24 @@ ret void
 }
 
 
-@gsxtminstruments_ext80 = hidden constant [60 x i8] c"sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ\00"
-@gsxtminstruments_ext81 = hidden constant [83 x i8] c"{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**\00"
-@gsxtminstruments_ext82 = hidden constant [5 x i8] c"gain\00"
-@gsxtminstruments_ext83 = hidden constant [10 x i8] c"pan_width\00"
-@gsxtminstruments_ext84 = hidden constant [8 x i8] c"pan_pos\00"
-@gsxtminstruments_ext85 = hidden constant [58 x i8] c"{i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**\00"
-@gsxtminstruments_ext86 = hidden constant [14 x i8] c"reverb_absorb\00"
-@gsxtminstruments_ext87 = hidden constant [12 x i8] c"reverb_size\00"
-@gsxtminstruments_ext88 = hidden constant [16 x i8] c"reverb_predelay\00"
-@gsxtminstruments_ext89 = hidden constant [11 x i8] c"reverb_mix\00"
-@gsxtminstruments_ext90 = hidden constant [7 x i8] c"reverb\00"
-@gsxtminstruments_ext91 = hidden constant [11 x i8] c"notekernel\00"
-@gsxtminstruments_ext92 = hidden constant [15 x i8] c"_anon_lambda_6\00"
-define dllexport fastcc float @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2167(i8* %_impz,i8* %_impenv, float %in, i64 %time, i64 %chan, float* %dat) nounwind {
+@gsxtminstruments_ext84 = hidden constant [60 x i8] c"sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ\00"
+@gsxtminstruments_ext85 = hidden constant [83 x i8] c"{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**\00"
+@gsxtminstruments_ext86 = hidden constant [5 x i8] c"gain\00"
+@gsxtminstruments_ext87 = hidden constant [10 x i8] c"pan_width\00"
+@gsxtminstruments_ext88 = hidden constant [8 x i8] c"pan_pos\00"
+@gsxtminstruments_ext89 = hidden constant [58 x i8] c"{i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**\00"
+@gsxtminstruments_ext90 = hidden constant [14 x i8] c"reverb_absorb\00"
+@gsxtminstruments_ext91 = hidden constant [12 x i8] c"reverb_size\00"
+@gsxtminstruments_ext92 = hidden constant [16 x i8] c"reverb_predelay\00"
+@gsxtminstruments_ext93 = hidden constant [11 x i8] c"reverb_mix\00"
+@gsxtminstruments_ext94 = hidden constant [7 x i8] c"reverb\00"
+@gsxtminstruments_ext95 = hidden constant [11 x i8] c"notekernel\00"
+@gsxtminstruments_ext96 = hidden constant [15 x i8] c"_anon_lambda_6\00"
+define dllexport fastcc float @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2229(i8* %_impz,i8* %_impenv, float %in, i64 %time, i64 %chan, float* %dat) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%zone2196 = bitcast i8* %_impz to %mzone*
+%zone2258 = bitcast i8* %_impz to %mzone*
 ; setup environment
 %impenv = bitcast i8* %_impenv to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
 %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr_ = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %impenv, i32 0, i32 0
@@ -6223,72 +6327,72 @@ store i64 %chan, i64* %chanPtr
 store float* %dat, float** %datPtr
 
 ; promote local stack var allocations
-%tzone2234 = load i8*, i8** %_impzPtr
-%zone2235 = bitcast i8* %tzone2234 to %mzone*
-%ifptr2211 = alloca float
+%tzone2296 = load i8*, i8** %_impzPtr
+%zone2297 = bitcast i8* %tzone2296 to %mzone*
+%ifptr2273 = alloca float
 
 ; do set!
-%val2197 = load i64, i64* %chanPtr
-%val2198 = load float, float* %inPtr
-%val2199 = load float, float* %pan_widthPtr
-%val2200 = load float, float* %pan_posPtr
+%val2259 = load i64, i64* %chanPtr
+%val2260 = load float, float* %inPtr
+%val2261 = load float, float* %pan_widthPtr
+%val2262 = load float, float* %pan_posPtr
 
 ; apply closure 
-%vval2201 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*** %panPtr
-%val2202 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*,{i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %vval2201
-%fPtr2203 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}* %val2202, i32 0, i32 2
-%ePtr2204 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}* %val2202, i32 0, i32 1
-%f2205 = load float (i8*, i8*, i64, float, float, float)*, float (i8*, i8*, i64, float, float, float)** %fPtr2203
-%e2206 = load i8*, i8** %ePtr2204
-%tzone2207 = load i8*, i8** %_impzPtr
-%zone2208 = bitcast i8* %tzone2207 to %mzone*
-%z2209 = bitcast %mzone* %zone2208 to i8*
-%result2210 = tail call fastcc float %f2205(i8* %z2209, i8* %e2206, i64 %val2197, float %val2198, float %val2199, float %val2200)
-store float %result2210, float* %outPtr
-%val2212 = load float, float* %reverb_mixPtr
-%cmp2213 = fcmp ugt float %val2212, 0x3f50624de0000000
-br i1 %cmp2213, label %then2211, label %else2211
+%vval2263 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*** %panPtr
+%val2264 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*,{i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %vval2263
+%fPtr2265 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}* %val2264, i32 0, i32 2
+%ePtr2266 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}* %val2264, i32 0, i32 1
+%f2267 = load float (i8*, i8*, i64, float, float, float)*, float (i8*, i8*, i64, float, float, float)** %fPtr2265
+%e2268 = load i8*, i8** %ePtr2266
+%tzone2269 = load i8*, i8** %_impzPtr
+%zone2270 = bitcast i8* %tzone2269 to %mzone*
+%z2271 = bitcast %mzone* %zone2270 to i8*
+%result2272 = tail call fastcc float %f2267(i8* %z2271, i8* %e2268, i64 %val2259, float %val2260, float %val2261, float %val2262)
+store float %result2272, float* %outPtr
+%val2274 = load float, float* %reverb_mixPtr
+%cmp2275 = fcmp ugt float %val2274, 0x3f50624de0000000
+br i1 %cmp2275, label %then2273, label %else2273
 
-then2211:
+then2273:
 ; do set!
-%val2214 = load i64, i64* %chanPtr
-%val2215 = load float, float* %outPtr
-%val2216 = load float, float* %reverb_sizePtr
-%val2217 = load float, float* %reverb_predelayPtr
-%val2218 = load float, float* %reverb_absorbPtr
-%val2219 = load float, float* %reverb_mixPtr
+%val2276 = load i64, i64* %chanPtr
+%val2277 = load float, float* %outPtr
+%val2278 = load float, float* %reverb_sizePtr
+%val2279 = load float, float* %reverb_predelayPtr
+%val2280 = load float, float* %reverb_absorbPtr
+%val2281 = load float, float* %reverb_mixPtr
 
 ; apply closure 
-%vval2220 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}**, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*** %reverbPtr
-%val2221 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*,{i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %vval2220
-%fPtr2222 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}* %val2221, i32 0, i32 2
-%ePtr2223 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}* %val2221, i32 0, i32 1
-%f2224 = load float (i8*, i8*, i64, float, float, float, float, float)*, float (i8*, i8*, i64, float, float, float, float, float)** %fPtr2222
-%e2225 = load i8*, i8** %ePtr2223
-%tzone2226 = load i8*, i8** %_impzPtr
-%zone2227 = bitcast i8* %tzone2226 to %mzone*
-%z2228 = bitcast %mzone* %zone2227 to i8*
-%result2229 = tail call fastcc float %f2224(i8* %z2228, i8* %e2225, i64 %val2214, float %val2215, float %val2216, float %val2217, float %val2218, float %val2219)
-store float %result2229, float* %outPtr
-store float %result2229, float* %ifptr2211
-br label %ifcont2211
+%vval2282 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}**, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*** %reverbPtr
+%val2283 = load {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*,{i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %vval2282
+%fPtr2284 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}* %val2283, i32 0, i32 2
+%ePtr2285 = getelementptr {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}* %val2283, i32 0, i32 1
+%f2286 = load float (i8*, i8*, i64, float, float, float, float, float)*, float (i8*, i8*, i64, float, float, float, float, float)** %fPtr2284
+%e2287 = load i8*, i8** %ePtr2285
+%tzone2288 = load i8*, i8** %_impzPtr
+%zone2289 = bitcast i8* %tzone2288 to %mzone*
+%z2290 = bitcast %mzone* %zone2289 to i8*
+%result2291 = tail call fastcc float %f2286(i8* %z2290, i8* %e2287, i64 %val2276, float %val2277, float %val2278, float %val2279, float %val2280, float %val2281)
+store float %result2291, float* %outPtr
+store float %result2291, float* %ifptr2273
+br label %ifcont2273
 
-else2211:
-br label %ifcont2211
+else2273:
+br label %ifcont2273
 
-ifcont2211:
-%ifres2230 = load float, float* %ifptr2211
+ifcont2273:
+%ifres2292 = load float, float* %ifptr2273
 
-%val2231 = load float, float* %gainPtr
-%val2232 = load float, float* %outPtr
-%val2233 = fmul float %val2231, %val2232
-ret float %val2233
+%val2293 = load float, float* %gainPtr
+%val2294 = load float, float* %outPtr
+%val2295 = fmul float %val2293, %val2294
+ret float %val2295
 }
-define dllexport fastcc {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2166(i8* %_impz,i8* %_impenv) nounwind {
+define dllexport fastcc {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2228(i8* %_impz,i8* %_impenv) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%zone2168 = bitcast i8* %_impz to %mzone*
+%zone2230 = bitcast i8* %_impz to %mzone*
 ; setup environment
 %impenv = bitcast i8* %_impenv to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}*
 %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr_ = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}* %impenv, i32 0, i32 0
@@ -6297,82 +6401,82 @@ store i8* %_impz, i8** %_impzPtr
 ; setup arguments
 
 
-%tzone2170 = load i8*, i8** %_impzPtr
-%zone2171 = bitcast i8* %tzone2170 to %mzone*
+%tzone2232 = load i8*, i8** %_impzPtr
+%zone2233 = bitcast i8* %tzone2232 to %mzone*
 
 ; let assign value to symbol notekernel
-%dat_notekernel = call i8* @llvm_zone_malloc(%mzone* %zone2171, i64 8)
+%dat_notekernel = call i8* @llvm_zone_malloc(%mzone* %zone2233, i64 8)
 %notekernelPtr = bitcast i8* %dat_notekernel to {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***
-%tzone2173 = load i8*, i8** %_impzPtr
-%zone2174 = bitcast i8* %tzone2173 to %mzone*
+%tzone2235 = load i8*, i8** %_impzPtr
+%zone2236 = bitcast i8* %tzone2235 to %mzone*
 
 ; let assign value to symbol reverb
-%dat_reverb = call i8* @llvm_zone_malloc(%mzone* %zone2174, i64 8)
+%dat_reverb = call i8* @llvm_zone_malloc(%mzone* %zone2236, i64 8)
 %reverbPtr = bitcast i8* %dat_reverb to {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***
-%tzone2175 = load i8*, i8** %_impzPtr
-%zone2176 = bitcast i8* %tzone2175 to %mzone*
+%tzone2237 = load i8*, i8** %_impzPtr
+%zone2238 = bitcast i8* %tzone2237 to %mzone*
 
 ; let assign value to symbol reverb_mix
-%dat_reverb_mix = call i8* @llvm_zone_malloc(%mzone* %zone2176, i64 4)
+%dat_reverb_mix = call i8* @llvm_zone_malloc(%mzone* %zone2238, i64 4)
 %reverb_mixPtr = bitcast i8* %dat_reverb_mix to float*
-%tzone2177 = load i8*, i8** %_impzPtr
-%zone2178 = bitcast i8* %tzone2177 to %mzone*
+%tzone2239 = load i8*, i8** %_impzPtr
+%zone2240 = bitcast i8* %tzone2239 to %mzone*
 
 ; let assign value to symbol reverb_predelay
-%dat_reverb_predelay = call i8* @llvm_zone_malloc(%mzone* %zone2178, i64 4)
+%dat_reverb_predelay = call i8* @llvm_zone_malloc(%mzone* %zone2240, i64 4)
 %reverb_predelayPtr = bitcast i8* %dat_reverb_predelay to float*
-%tzone2179 = load i8*, i8** %_impzPtr
-%zone2180 = bitcast i8* %tzone2179 to %mzone*
+%tzone2241 = load i8*, i8** %_impzPtr
+%zone2242 = bitcast i8* %tzone2241 to %mzone*
 
 ; let assign value to symbol reverb_size
-%dat_reverb_size = call i8* @llvm_zone_malloc(%mzone* %zone2180, i64 4)
+%dat_reverb_size = call i8* @llvm_zone_malloc(%mzone* %zone2242, i64 4)
 %reverb_sizePtr = bitcast i8* %dat_reverb_size to float*
-%tzone2181 = load i8*, i8** %_impzPtr
-%zone2182 = bitcast i8* %tzone2181 to %mzone*
+%tzone2243 = load i8*, i8** %_impzPtr
+%zone2244 = bitcast i8* %tzone2243 to %mzone*
 
 ; let assign value to symbol reverb_absorb
-%dat_reverb_absorb = call i8* @llvm_zone_malloc(%mzone* %zone2182, i64 4)
+%dat_reverb_absorb = call i8* @llvm_zone_malloc(%mzone* %zone2244, i64 4)
 %reverb_absorbPtr = bitcast i8* %dat_reverb_absorb to float*
-%tzone2186 = load i8*, i8** %_impzPtr
-%zone2187 = bitcast i8* %tzone2186 to %mzone*
+%tzone2248 = load i8*, i8** %_impzPtr
+%zone2249 = bitcast i8* %tzone2248 to %mzone*
 
 ; let assign value to symbol pan
-%dat_pan = call i8* @llvm_zone_malloc(%mzone* %zone2187, i64 8)
+%dat_pan = call i8* @llvm_zone_malloc(%mzone* %zone2249, i64 8)
 %panPtr = bitcast i8* %dat_pan to {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***
-%tzone2188 = load i8*, i8** %_impzPtr
-%zone2189 = bitcast i8* %tzone2188 to %mzone*
+%tzone2250 = load i8*, i8** %_impzPtr
+%zone2251 = bitcast i8* %tzone2250 to %mzone*
 
 ; let assign value to symbol pan_pos
-%dat_pan_pos = call i8* @llvm_zone_malloc(%mzone* %zone2189, i64 4)
+%dat_pan_pos = call i8* @llvm_zone_malloc(%mzone* %zone2251, i64 4)
 %pan_posPtr = bitcast i8* %dat_pan_pos to float*
-%tzone2190 = load i8*, i8** %_impzPtr
-%zone2191 = bitcast i8* %tzone2190 to %mzone*
+%tzone2252 = load i8*, i8** %_impzPtr
+%zone2253 = bitcast i8* %tzone2252 to %mzone*
 
 ; let assign value to symbol pan_width
-%dat_pan_width = call i8* @llvm_zone_malloc(%mzone* %zone2191, i64 4)
+%dat_pan_width = call i8* @llvm_zone_malloc(%mzone* %zone2253, i64 4)
 %pan_widthPtr = bitcast i8* %dat_pan_width to float*
-%tzone2192 = load i8*, i8** %_impzPtr
-%zone2193 = bitcast i8* %tzone2192 to %mzone*
+%tzone2254 = load i8*, i8** %_impzPtr
+%zone2255 = bitcast i8* %tzone2254 to %mzone*
 
 ; let assign value to symbol gain
-%dat_gain = call i8* @llvm_zone_malloc(%mzone* %zone2193, i64 4)
+%dat_gain = call i8* @llvm_zone_malloc(%mzone* %zone2255, i64 4)
 %gainPtr = bitcast i8* %dat_gain to float*
-%tzone2194 = load i8*, i8** %_impzPtr
-%zone2195 = bitcast i8* %tzone2194 to %mzone*
+%tzone2256 = load i8*, i8** %_impzPtr
+%zone2257 = bitcast i8* %tzone2256 to %mzone*
 
 ; let assign value to symbol out
-%dat_out = call i8* @llvm_zone_malloc(%mzone* %zone2195, i64 4)
+%dat_out = call i8* @llvm_zone_malloc(%mzone* %zone2257, i64 4)
 %outPtr = bitcast i8* %dat_out to float*
-%null2169 = bitcast i8* null to {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**
+%null2231 = bitcast i8* null to {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**
 
 ; let value assignment
-%notekernel = select i1 true, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %null2169, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %null2169
+%notekernel = select i1 true, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %null2231, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %null2231
 store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}** %notekernel, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %notekernelPtr
 
-%res2172 = call ccc {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** @reverb_st_c()
+%res2234 = call ccc {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** @reverb_st_c()
 
 ; let value assignment
-%reverb = select i1 true, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %res2172, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %res2172
+%reverb = select i1 true, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %res2234, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %res2234
 store {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}** %reverb, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*** %reverbPtr
 
 
@@ -6395,12 +6499,12 @@ store float %reverb_size, float* %reverb_sizePtr
 %reverb_absorb = select i1 true, float 0x3fdcccccc0000000, float 0x3fdcccccc0000000
 store float %reverb_absorb, float* %reverb_absorbPtr
 
-%val2183 = load i32, i32* @CHANNELS
-%res2184 = call ccc i64 @i32toi64(i32 %val2183)
-%res2185 = call ccc {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** @pan_c(i64 %res2184)
+%val2245 = load i32, i32* @CHANNELS
+%res2246 = call ccc i64 @i32toi64(i32 %val2245)
+%res2247 = call ccc {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** @pan_c(i64 %res2246)
 
 ; let value assignment
-%pan = select i1 true, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %res2185, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %res2185
+%pan = select i1 true, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %res2247, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %res2247
 store {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}** %pan, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*** %panPtr
 
 
@@ -6423,193 +6527,193 @@ store float %gain, float* %gainPtr
 %out = select i1 true, float 0x0, float 0x0
 store float %out, float* %outPtr
 
-%tzone2315 = load i8*, i8** %_impzPtr
-%zone2316 = bitcast i8* %tzone2315 to %mzone*
+%tzone2377 = load i8*, i8** %_impzPtr
+%zone2378 = bitcast i8* %tzone2377 to %mzone*
 
 ; let assign value to symbol _anon_lambda_6
-%dat__anon_lambda_6 = call i8* @llvm_zone_malloc(%mzone* %zone2316, i64 8)
+%dat__anon_lambda_6 = call i8* @llvm_zone_malloc(%mzone* %zone2378, i64 8)
 %_anon_lambda_6Ptr = bitcast i8* %dat__anon_lambda_6 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***
-%tzone2236 = load i8*, i8** %_impzPtr
-%zone2237 = bitcast i8* %tzone2236 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone2237)
+%tzone2298 = load i8*, i8** %_impzPtr
+%zone2299 = bitcast i8* %tzone2298 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone2299)
 ; malloc closure structure
-%clsptr2238 = call i8* @llvm_zone_malloc(%mzone* %zone2237, i64 24)
-%closure2239 = bitcast i8* %clsptr2238 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*
+%clsptr2300 = call i8* @llvm_zone_malloc(%mzone* %zone2299, i64 24)
+%closure2301 = bitcast i8* %clsptr2300 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*
 
 ; malloc environment structure
-%envptr2240 = call i8* @llvm_zone_malloc(%mzone* %zone2237, i64 104)
-%environment2241 = bitcast i8* %envptr2240 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
+%envptr2302 = call i8* @llvm_zone_malloc(%mzone* %zone2299, i64 104)
+%environment2303 = bitcast i8* %envptr2302 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}*
 
 ; malloc closure address table
-%addytable2242 = call %clsvar* @new_address_table()
-%var2243 = bitcast [60 x i8]* @gsxtminstruments_ext80 to i8*
-%var2244 = bitcast [83 x i8]* @gsxtminstruments_ext81 to i8*
-%addytable2245 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2243, i32 0, i8* %var2244, i32 3, %clsvar* %addytable2242)
-%var2246 = bitcast [4 x i8]* @gsxtminstruments_ext70 to i8*
-%var2247 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2248 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2246, i32 8, i8* %var2247, i32 3, %clsvar* %addytable2245)
-%var2249 = bitcast [5 x i8]* @gsxtminstruments_ext82 to i8*
-%var2250 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2251 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2249, i32 16, i8* %var2250, i32 3, %clsvar* %addytable2248)
-%var2252 = bitcast [10 x i8]* @gsxtminstruments_ext83 to i8*
-%var2253 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2254 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2252, i32 24, i8* %var2253, i32 3, %clsvar* %addytable2251)
-%var2255 = bitcast [8 x i8]* @gsxtminstruments_ext84 to i8*
-%var2256 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2257 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2255, i32 32, i8* %var2256, i32 3, %clsvar* %addytable2254)
-%var2258 = bitcast [4 x i8]* @gsxtminstruments_ext49 to i8*
-%var2259 = bitcast [58 x i8]* @gsxtminstruments_ext85 to i8*
-%addytable2260 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2258, i32 40, i8* %var2259, i32 3, %clsvar* %addytable2257)
-%var2261 = bitcast [14 x i8]* @gsxtminstruments_ext86 to i8*
-%var2262 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2263 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2261, i32 48, i8* %var2262, i32 3, %clsvar* %addytable2260)
-%var2264 = bitcast [12 x i8]* @gsxtminstruments_ext87 to i8*
-%var2265 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2266 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2264, i32 56, i8* %var2265, i32 3, %clsvar* %addytable2263)
-%var2267 = bitcast [16 x i8]* @gsxtminstruments_ext88 to i8*
-%var2268 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2269 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2267, i32 64, i8* %var2268, i32 3, %clsvar* %addytable2266)
-%var2270 = bitcast [11 x i8]* @gsxtminstruments_ext89 to i8*
-%var2271 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
-%addytable2272 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2270, i32 72, i8* %var2271, i32 3, %clsvar* %addytable2269)
-%var2273 = bitcast [7 x i8]* @gsxtminstruments_ext90 to i8*
-%var2274 = bitcast [72 x i8]* @gsxtminstruments_ext37 to i8*
-%addytable2275 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2273, i32 80, i8* %var2274, i32 3, %clsvar* %addytable2272)
-%var2276 = bitcast [11 x i8]* @gsxtminstruments_ext91 to i8*
-%var2277 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
-%addytable2278 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2276, i32 88, i8* %var2277, i32 3, %clsvar* %addytable2275)
-%var2279 = bitcast [15 x i8]* @gsxtminstruments_ext92 to i8*
-%var2280 = bitcast [57 x i8]* @gsxtminstruments_ext64 to i8*
-%addytable2281 = call %clsvar* @add_address_table(%mzone* %zone2237, i8* %var2279, i32 96, i8* %var2280, i32 3, %clsvar* %addytable2278)
-%address-table2282 = bitcast %clsvar* %addytable2281 to i8*
+%addytable2304 = call %clsvar* @new_address_table()
+%var2305 = bitcast [60 x i8]* @gsxtminstruments_ext84 to i8*
+%var2306 = bitcast [83 x i8]* @gsxtminstruments_ext85 to i8*
+%addytable2307 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2305, i32 0, i8* %var2306, i32 3, %clsvar* %addytable2304)
+%var2308 = bitcast [4 x i8]* @gsxtminstruments_ext74 to i8*
+%var2309 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2310 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2308, i32 8, i8* %var2309, i32 3, %clsvar* %addytable2307)
+%var2311 = bitcast [5 x i8]* @gsxtminstruments_ext86 to i8*
+%var2312 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2313 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2311, i32 16, i8* %var2312, i32 3, %clsvar* %addytable2310)
+%var2314 = bitcast [10 x i8]* @gsxtminstruments_ext87 to i8*
+%var2315 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2316 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2314, i32 24, i8* %var2315, i32 3, %clsvar* %addytable2313)
+%var2317 = bitcast [8 x i8]* @gsxtminstruments_ext88 to i8*
+%var2318 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2319 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2317, i32 32, i8* %var2318, i32 3, %clsvar* %addytable2316)
+%var2320 = bitcast [4 x i8]* @gsxtminstruments_ext49 to i8*
+%var2321 = bitcast [58 x i8]* @gsxtminstruments_ext89 to i8*
+%addytable2322 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2320, i32 40, i8* %var2321, i32 3, %clsvar* %addytable2319)
+%var2323 = bitcast [14 x i8]* @gsxtminstruments_ext90 to i8*
+%var2324 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2325 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2323, i32 48, i8* %var2324, i32 3, %clsvar* %addytable2322)
+%var2326 = bitcast [12 x i8]* @gsxtminstruments_ext91 to i8*
+%var2327 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2328 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2326, i32 56, i8* %var2327, i32 3, %clsvar* %addytable2325)
+%var2329 = bitcast [16 x i8]* @gsxtminstruments_ext92 to i8*
+%var2330 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2331 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2329, i32 64, i8* %var2330, i32 3, %clsvar* %addytable2328)
+%var2332 = bitcast [11 x i8]* @gsxtminstruments_ext93 to i8*
+%var2333 = bitcast [6 x i8]* @gsxtminstruments_ext35 to i8*
+%addytable2334 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2332, i32 72, i8* %var2333, i32 3, %clsvar* %addytable2331)
+%var2335 = bitcast [7 x i8]* @gsxtminstruments_ext94 to i8*
+%var2336 = bitcast [72 x i8]* @gsxtminstruments_ext37 to i8*
+%addytable2337 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2335, i32 80, i8* %var2336, i32 3, %clsvar* %addytable2334)
+%var2338 = bitcast [11 x i8]* @gsxtminstruments_ext95 to i8*
+%var2339 = bitcast [157 x i8]* @gsxtminstruments_ext17 to i8*
+%addytable2340 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2338, i32 88, i8* %var2339, i32 3, %clsvar* %addytable2337)
+%var2341 = bitcast [15 x i8]* @gsxtminstruments_ext96 to i8*
+%var2342 = bitcast [57 x i8]* @gsxtminstruments_ext68 to i8*
+%addytable2343 = call %clsvar* @add_address_table(%mzone* %zone2299, i8* %var2341, i32 96, i8* %var2342, i32 3, %clsvar* %addytable2340)
+%address-table2344 = bitcast %clsvar* %addytable2343 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table2309 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2239, i32 0, i32 0
-store i8* %address-table2282, i8** %closure.table2309
-%closure.env2310 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2239, i32 0, i32 1
-store i8* %envptr2240, i8** %closure.env2310
-%closure.func2311 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2239, i32 0, i32 2
-store float (i8*, i8*, float, i64, i64, float*)* @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2167, float (i8*, i8*, float, i64, i64, float*)** %closure.func2311
-%closure_size2312 = call i64 @llvm_zone_mark_size(%mzone* %zone2237)
-call void @llvm_zone_ptr_set_size(i8* %clsptr2238, i64 %closure_size2312)
-%wrapper_ptr2313 = call i8* @llvm_zone_malloc(%mzone* %zone2237, i64 8)
-%closure_wrapper2314 = bitcast i8* %wrapper_ptr2313 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**
-store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2239, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2314
+%closure.table2371 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2301, i32 0, i32 0
+store i8* %address-table2344, i8** %closure.table2371
+%closure.env2372 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2301, i32 0, i32 1
+store i8* %envptr2302, i8** %closure.env2372
+%closure.func2373 = getelementptr { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2301, i32 0, i32 2
+store float (i8*, i8*, float, i64, i64, float*)* @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2229, float (i8*, i8*, float, i64, i64, float*)** %closure.func2373
+%closure_size2374 = call i64 @llvm_zone_mark_size(%mzone* %zone2299)
+call void @llvm_zone_ptr_set_size(i8* %clsptr2300, i64 %closure_size2374)
+%wrapper_ptr2375 = call i8* @llvm_zone_malloc(%mzone* %zone2299, i64 8)
+%closure_wrapper2376 = bitcast i8* %wrapper_ptr2375 to { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**
+store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2301, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2376
 
 ; let value assignment
-%_anon_lambda_6 = select i1 true, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2314, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2314
+%_anon_lambda_6 = select i1 true, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2376, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %closure_wrapper2376
 store { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %_anon_lambda_6, { i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_6Ptr
 
 ; add data to environment
 ; don't need to alloc for env var sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ
-%tmp_envptr2284 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 0
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**** %tmp_envptr2284
+%tmp_envptr2346 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 0
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**** %tmp_envptr2346
 
 ; don't need to alloc for env var out
-%tmp_envptr2286 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 1
-store float* %outPtr, float** %tmp_envptr2286
+%tmp_envptr2348 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 1
+store float* %outPtr, float** %tmp_envptr2348
 
 ; don't need to alloc for env var gain
-%tmp_envptr2288 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 2
-store float* %gainPtr, float** %tmp_envptr2288
+%tmp_envptr2350 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 2
+store float* %gainPtr, float** %tmp_envptr2350
 
 ; don't need to alloc for env var pan_width
-%tmp_envptr2290 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 3
-store float* %pan_widthPtr, float** %tmp_envptr2290
+%tmp_envptr2352 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 3
+store float* %pan_widthPtr, float** %tmp_envptr2352
 
 ; don't need to alloc for env var pan_pos
-%tmp_envptr2292 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 4
-store float* %pan_posPtr, float** %tmp_envptr2292
+%tmp_envptr2354 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 4
+store float* %pan_posPtr, float** %tmp_envptr2354
 
 ; don't need to alloc for env var pan
-%tmp_envptr2294 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 5
-store {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*** %panPtr, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**** %tmp_envptr2294
+%tmp_envptr2356 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 5
+store {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}*** %panPtr, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}**** %tmp_envptr2356
 
 ; don't need to alloc for env var reverb_absorb
-%tmp_envptr2296 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 6
-store float* %reverb_absorbPtr, float** %tmp_envptr2296
+%tmp_envptr2358 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 6
+store float* %reverb_absorbPtr, float** %tmp_envptr2358
 
 ; don't need to alloc for env var reverb_size
-%tmp_envptr2298 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 7
-store float* %reverb_sizePtr, float** %tmp_envptr2298
+%tmp_envptr2360 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 7
+store float* %reverb_sizePtr, float** %tmp_envptr2360
 
 ; don't need to alloc for env var reverb_predelay
-%tmp_envptr2300 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 8
-store float* %reverb_predelayPtr, float** %tmp_envptr2300
+%tmp_envptr2362 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 8
+store float* %reverb_predelayPtr, float** %tmp_envptr2362
 
 ; don't need to alloc for env var reverb_mix
-%tmp_envptr2302 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 9
-store float* %reverb_mixPtr, float** %tmp_envptr2302
+%tmp_envptr2364 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 9
+store float* %reverb_mixPtr, float** %tmp_envptr2364
 
 ; don't need to alloc for env var reverb
-%tmp_envptr2304 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 10
-store {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*** %reverbPtr, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}**** %tmp_envptr2304
+%tmp_envptr2366 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 10
+store {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}*** %reverbPtr, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}**** %tmp_envptr2366
 
 ; don't need to alloc for env var notekernel
-%tmp_envptr2306 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 11
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %notekernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr2306
+%tmp_envptr2368 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 11
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}*** %notekernelPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}**** %tmp_envptr2368
 
 ; don't need to alloc for env var _anon_lambda_6
-%tmp_envptr2308 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2241, i32 0, i32 12
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_6Ptr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2308
+%tmp_envptr2370 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float)*}***, float*, float*, float*, float*, {i8*, i8*, float (i8*, i8*, i64, float, float, float, float, float)*}***, {i8*, i8*, {i8*, i8*, float (i8*, i8*, i64, i64)*}** (i8*, i8*, %NoteData*, [128 x float*]*, [128 x i64]*, [128 x i64]*, [128 x i64]*, i64, i64, float*)*}***, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}***}* %environment2303, i32 0, i32 12
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_6Ptr, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**** %tmp_envptr2370
 
 
-%val2317 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_6Ptr
-ret {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2317
+%val2379 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %_anon_lambda_6Ptr
+ret {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2379
 }
 define dllexport ccc {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ_maker(i8* %_impz) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%tzone2337 = load i8*, i8** %_impzPtr
-%zone2338 = bitcast i8* %tzone2337 to %mzone*
+%tzone2399 = load i8*, i8** %_impzPtr
+%zone2400 = bitcast i8* %tzone2399 to %mzone*
 
 ; let assign value to symbol sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ
-%dat_sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ = call i8* @llvm_zone_malloc(%mzone* %zone2338, i64 8)
+%dat_sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ = call i8* @llvm_zone_malloc(%mzone* %zone2400, i64 8)
 %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr = bitcast i8* %dat_sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***
-%tzone2318 = load i8*, i8** %_impzPtr
-%zone2319 = bitcast i8* %tzone2318 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone2319)
+%tzone2380 = load i8*, i8** %_impzPtr
+%zone2381 = bitcast i8* %tzone2380 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone2381)
 ; malloc closure structure
-%clsptr2320 = call i8* @llvm_zone_malloc(%mzone* %zone2319, i64 24)
-%closure2321 = bitcast i8* %clsptr2320 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*
+%clsptr2382 = call i8* @llvm_zone_malloc(%mzone* %zone2381, i64 24)
+%closure2383 = bitcast i8* %clsptr2382 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*
 
 ; malloc environment structure
-%envptr2322 = call i8* @llvm_zone_malloc(%mzone* %zone2319, i64 8)
-%environment2323 = bitcast i8* %envptr2322 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}*
+%envptr2384 = call i8* @llvm_zone_malloc(%mzone* %zone2381, i64 8)
+%environment2385 = bitcast i8* %envptr2384 to {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}*
 
 ; malloc closure address table
-%addytable2324 = call %clsvar* @new_address_table()
-%var2325 = bitcast [60 x i8]* @gsxtminstruments_ext80 to i8*
-%var2326 = bitcast [83 x i8]* @gsxtminstruments_ext81 to i8*
-%addytable2327 = call %clsvar* @add_address_table(%mzone* %zone2319, i8* %var2325, i32 0, i8* %var2326, i32 3, %clsvar* %addytable2324)
-%address-table2328 = bitcast %clsvar* %addytable2327 to i8*
+%addytable2386 = call %clsvar* @new_address_table()
+%var2387 = bitcast [60 x i8]* @gsxtminstruments_ext84 to i8*
+%var2388 = bitcast [83 x i8]* @gsxtminstruments_ext85 to i8*
+%addytable2389 = call %clsvar* @add_address_table(%mzone* %zone2381, i8* %var2387, i32 0, i8* %var2388, i32 3, %clsvar* %addytable2386)
+%address-table2390 = bitcast %clsvar* %addytable2389 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table2331 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2321, i32 0, i32 0
-store i8* %address-table2328, i8** %closure.table2331
-%closure.env2332 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2321, i32 0, i32 1
-store i8* %envptr2322, i8** %closure.env2332
-%closure.func2333 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2321, i32 0, i32 2
-store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)* @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2166, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)** %closure.func2333
-%closure_size2334 = call i64 @llvm_zone_mark_size(%mzone* %zone2319)
-call void @llvm_zone_ptr_set_size(i8* %clsptr2320, i64 %closure_size2334)
-%wrapper_ptr2335 = call i8* @llvm_zone_malloc(%mzone* %zone2319, i64 8)
-%closure_wrapper2336 = bitcast i8* %wrapper_ptr2335 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**
-store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2321, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2336
+%closure.table2393 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2383, i32 0, i32 0
+store i8* %address-table2390, i8** %closure.table2393
+%closure.env2394 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2383, i32 0, i32 1
+store i8* %envptr2384, i8** %closure.env2394
+%closure.func2395 = getelementptr { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2383, i32 0, i32 2
+store {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)* @sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ__2228, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)** %closure.func2395
+%closure_size2396 = call i64 @llvm_zone_mark_size(%mzone* %zone2381)
+call void @llvm_zone_ptr_set_size(i8* %clsptr2382, i64 %closure_size2396)
+%wrapper_ptr2397 = call i8* @llvm_zone_malloc(%mzone* %zone2381, i64 8)
+%closure_wrapper2398 = bitcast i8* %wrapper_ptr2397 to { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**
+store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}* %closure2383, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2398
 
 ; let value assignment
-%sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ = select i1 true, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2336, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2336
+%sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ = select i1 true, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2398, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %closure_wrapper2398
 store { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ, { i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr
 
 ; add data to environment
 ; don't need to alloc for env var sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQ
-%tmp_envptr2330 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}* %environment2323, i32 0, i32 0
-store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**** %tmp_envptr2330
+%tmp_envptr2392 = getelementptr {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}, {{i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}***}* %environment2385, i32 0, i32 0
+store {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**** %tmp_envptr2392
 
 
-%val2339 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr
-ret {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %val2339
+%val2401 = load {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}**, {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}*** %sampler_fx_adhoc_W1tmbG9hdCxmbG9hdCxpNjQsaTY0LGZsb2F0Kl0qXQPtr
+ret {i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** (i8*, i8*)*}** %val2401
 }
 
 
@@ -6724,13 +6828,13 @@ ret void
 }
 
 
-@gsxtminstruments_ext93 = hidden constant [106 x i8] c"set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0\00"
-@gsxtminstruments_ext94 = hidden constant [113 x i8] c"{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**\00"
-define dllexport fastcc i64 @set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0__2340(i8* %_impz,i8* %_impenv, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %inst, %AudioBuffer* %buf, i64 %index, i32 %bank) nounwind {
+@gsxtminstruments_ext97 = hidden constant [106 x i8] c"set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0\00"
+@gsxtminstruments_ext98 = hidden constant [113 x i8] c"{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**\00"
+define dllexport fastcc i64 @set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0__2402(i8* %_impz,i8* %_impenv, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %inst, %AudioBuffer* %buf, i64 %index, i32 %bank) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%zone2341 = bitcast i8* %_impz to %mzone*
+%zone2403 = bitcast i8* %_impz to %mzone*
 ; setup environment
 %impenv = bitcast i8* %_impenv to {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}*
 %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr_ = getelementptr {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}, {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}* %impenv, i32 0, i32 0
@@ -6747,289 +6851,289 @@ store i64 %index, i64* %indexPtr
 store i32 %bank, i32* %bankPtr
 
 
-%tzone2344 = load i8*, i8** %_impzPtr
-%zone2345 = bitcast i8* %tzone2344 to %mzone*
+%tzone2406 = load i8*, i8** %_impzPtr
+%zone2407 = bitcast i8* %tzone2406 to %mzone*
 
 ; let assign value to symbol channels
 %channelsPtr = alloca i64
-%tzone2348 = load i8*, i8** %_impzPtr
-%zone2349 = bitcast i8* %tzone2348 to %mzone*
+%tzone2410 = load i8*, i8** %_impzPtr
+%zone2411 = bitcast i8* %tzone2410 to %mzone*
 
 ; let assign value to symbol num
 %numPtr = alloca i64
-%tzone2352 = load i8*, i8** %_impzPtr
-%zone2353 = bitcast i8* %tzone2352 to %mzone*
+%tzone2414 = load i8*, i8** %_impzPtr
+%zone2415 = bitcast i8* %tzone2414 to %mzone*
 
 ; let assign value to symbol adat
 %adatPtr = alloca float*
-%tzone2372 = load i8*, i8** %_impzPtr
-%zone2373 = bitcast i8* %tzone2372 to %mzone*
+%tzone2434 = load i8*, i8** %_impzPtr
+%zone2435 = bitcast i8* %tzone2434 to %mzone*
 
 ; let assign value to symbol offsets
 %offsetsPtr = alloca [20 x [128 x i64]]*
-%tzone2392 = load i8*, i8** %_impzPtr
-%zone2393 = bitcast i8* %tzone2392 to %mzone*
+%tzone2454 = load i8*, i8** %_impzPtr
+%zone2455 = bitcast i8* %tzone2454 to %mzone*
 
 ; let assign value to symbol samples
 %samplesPtr = alloca [20 x [128 x float*]]*
-%tzone2412 = load i8*, i8** %_impzPtr
-%zone2413 = bitcast i8* %tzone2412 to %mzone*
+%tzone2474 = load i8*, i8** %_impzPtr
+%zone2475 = bitcast i8* %tzone2474 to %mzone*
 
 ; let assign value to symbol samples_channels
 %samples_channelsPtr = alloca [20 x [128 x i64]]*
-%tzone2432 = load i8*, i8** %_impzPtr
-%zone2433 = bitcast i8* %tzone2432 to %mzone*
+%tzone2494 = load i8*, i8** %_impzPtr
+%zone2495 = bitcast i8* %tzone2494 to %mzone*
 
 ; let assign value to symbol samples_length
 %samples_lengthPtr = alloca [20 x [128 x i64]]*
-%val2342 = load %AudioBuffer*, %AudioBuffer** %bufPtr
-%res2343 = call ccc i64 @AudioBuffer_channels(%AudioBuffer* %val2342)
+%val2404 = load %AudioBuffer*, %AudioBuffer** %bufPtr
+%res2405 = call ccc i64 @AudioBuffer_channels(%AudioBuffer* %val2404)
 
 ; let value assignment
-%channels = select i1 true, i64 %res2343, i64 %res2343
+%channels = select i1 true, i64 %res2405, i64 %res2405
 store i64 %channels, i64* %channelsPtr
 
-%val2346 = load %AudioBuffer*, %AudioBuffer** %bufPtr
-%res2347 = call ccc i64 @AudioBuffer_frames(%AudioBuffer* %val2346)
+%val2408 = load %AudioBuffer*, %AudioBuffer** %bufPtr
+%res2409 = call ccc i64 @AudioBuffer_frames(%AudioBuffer* %val2408)
 
 ; let value assignment
-%num = select i1 true, i64 %res2347, i64 %res2347
+%num = select i1 true, i64 %res2409, i64 %res2409
 store i64 %num, i64* %numPtr
 
-%val2350 = load %AudioBuffer*, %AudioBuffer** %bufPtr
-%res2351 = call ccc float* @AudioBuffer_ptr(%AudioBuffer* %val2350, i64 0, i64 0)
+%val2412 = load %AudioBuffer*, %AudioBuffer** %bufPtr
+%res2413 = call ccc float* @AudioBuffer_ptr(%AudioBuffer* %val2412, i64 0, i64 0)
 
 ; let value assignment
-%adat = select i1 true, float* %res2351, float* %res2351
+%adat = select i1 true, float* %res2413, float* %res2413
 store float* %adat, float** %adatPtr
 
 
 ; closure ref 
-%val2355 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
-%var2356 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%closure2357 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2355
-%tablePtr2358 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2357, i32 0, i32 0
-%tmp2359 = bitcast i8** %tablePtr2358 to %clsvar**
-%table2360 = load %clsvar*, %clsvar** %tmp2359
-%ePtr2361 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2357, i32 0, i32 1
-%e2362 = load i8*, i8** %ePtr2361
-%offset2363 = call i32 @get_address_offset(i64 -1817689141582913970, %clsvar* %table2360)
-%valPtr2364 = getelementptr i8, i8* %e2362, i32 %offset2363
-%val2365 = bitcast i8* %valPtr2364 to i8**
-%val2366 = load i8*, i8** %val2365
-%val2367 = bitcast i8* %val2366 to [20 x [128 x i64]]**
-%check2368 = call i1 @check_address_type(i64 -1817689141582913970, %clsvar* %table2360, i8* %var2356)
-br i1 %check2368, label %then2354, label %else2354
+%val2417 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
+%var2418 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%closure2419 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2417
+%tablePtr2420 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2419, i32 0, i32 0
+%tmp2421 = bitcast i8** %tablePtr2420 to %clsvar**
+%table2422 = load %clsvar*, %clsvar** %tmp2421
+%ePtr2423 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2419, i32 0, i32 1
+%e2424 = load i8*, i8** %ePtr2423
+%offset2425 = call i32 @get_address_offset(i64 -1817689141582913970, %clsvar* %table2422)
+%valPtr2426 = getelementptr i8, i8* %e2424, i32 %offset2425
+%val2427 = bitcast i8* %valPtr2426 to i8**
+%val2428 = load i8*, i8** %val2427
+%val2429 = bitcast i8* %val2428 to [20 x [128 x i64]]**
+%check2430 = call i1 @check_address_type(i64 -1817689141582913970, %clsvar* %table2422, i8* %var2418)
+br i1 %check2430, label %then2416, label %else2416
 
-then2354:
-%then_result2369 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2367
-br label %cont2354
+then2416:
+%then_result2431 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2429
+br label %cont2416
 
-else2354:
-%else_result2370 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2367
-br label %cont2354
+else2416:
+%else_result2432 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2429
+br label %cont2416
 
-cont2354:
-%result2371 = phi [20 x [128 x i64]]* [ %then_result2369, %then2354 ],  [ %else_result2370, %else2354 ]
+cont2416:
+%result2433 = phi [20 x [128 x i64]]* [ %then_result2431, %then2416 ],  [ %else_result2432, %else2416 ]
 
 ; let value assignment
-%offsets = select i1 true, [20 x [128 x i64]]* %result2371, [20 x [128 x i64]]* %result2371
+%offsets = select i1 true, [20 x [128 x i64]]* %result2433, [20 x [128 x i64]]* %result2433
 store [20 x [128 x i64]]* %offsets, [20 x [128 x i64]]** %offsetsPtr
 
 
 ; closure ref 
-%val2375 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
-%var2376 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
-%closure2377 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2375
-%tablePtr2378 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2377, i32 0, i32 0
-%tmp2379 = bitcast i8** %tablePtr2378 to %clsvar**
-%table2380 = load %clsvar*, %clsvar** %tmp2379
-%ePtr2381 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2377, i32 0, i32 1
-%e2382 = load i8*, i8** %ePtr2381
-%offset2383 = call i32 @get_address_offset(i64 152448360949, %clsvar* %table2380)
-%valPtr2384 = getelementptr i8, i8* %e2382, i32 %offset2383
-%val2385 = bitcast i8* %valPtr2384 to i8**
-%val2386 = load i8*, i8** %val2385
-%val2387 = bitcast i8* %val2386 to [20 x [128 x float*]]**
-%check2388 = call i1 @check_address_type(i64 152448360949, %clsvar* %table2380, i8* %var2376)
-br i1 %check2388, label %then2374, label %else2374
+%val2437 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
+%var2438 = bitcast [23 x i8]* @gsxtminstruments_ext0 to i8*
+%closure2439 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2437
+%tablePtr2440 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2439, i32 0, i32 0
+%tmp2441 = bitcast i8** %tablePtr2440 to %clsvar**
+%table2442 = load %clsvar*, %clsvar** %tmp2441
+%ePtr2443 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2439, i32 0, i32 1
+%e2444 = load i8*, i8** %ePtr2443
+%offset2445 = call i32 @get_address_offset(i64 152448360949, %clsvar* %table2442)
+%valPtr2446 = getelementptr i8, i8* %e2444, i32 %offset2445
+%val2447 = bitcast i8* %valPtr2446 to i8**
+%val2448 = load i8*, i8** %val2447
+%val2449 = bitcast i8* %val2448 to [20 x [128 x float*]]**
+%check2450 = call i1 @check_address_type(i64 152448360949, %clsvar* %table2442, i8* %var2438)
+br i1 %check2450, label %then2436, label %else2436
 
-then2374:
-%then_result2389 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %val2387
-br label %cont2374
+then2436:
+%then_result2451 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %val2449
+br label %cont2436
 
-else2374:
-%else_result2390 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %val2387
-br label %cont2374
+else2436:
+%else_result2452 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %val2449
+br label %cont2436
 
-cont2374:
-%result2391 = phi [20 x [128 x float*]]* [ %then_result2389, %then2374 ],  [ %else_result2390, %else2374 ]
+cont2436:
+%result2453 = phi [20 x [128 x float*]]* [ %then_result2451, %then2436 ],  [ %else_result2452, %else2436 ]
 
 ; let value assignment
-%samples = select i1 true, [20 x [128 x float*]]* %result2391, [20 x [128 x float*]]* %result2391
+%samples = select i1 true, [20 x [128 x float*]]* %result2453, [20 x [128 x float*]]* %result2453
 store [20 x [128 x float*]]* %samples, [20 x [128 x float*]]** %samplesPtr
 
 
 ; closure ref 
-%val2395 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
-%var2396 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%closure2397 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2395
-%tablePtr2398 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2397, i32 0, i32 0
-%tmp2399 = bitcast i8** %tablePtr2398 to %clsvar**
-%table2400 = load %clsvar*, %clsvar** %tmp2399
-%ePtr2401 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2397, i32 0, i32 1
-%e2402 = load i8*, i8** %ePtr2401
-%offset2403 = call i32 @get_address_offset(i64 -4643509960147185536, %clsvar* %table2400)
-%valPtr2404 = getelementptr i8, i8* %e2402, i32 %offset2403
-%val2405 = bitcast i8* %valPtr2404 to i8**
-%val2406 = load i8*, i8** %val2405
-%val2407 = bitcast i8* %val2406 to [20 x [128 x i64]]**
-%check2408 = call i1 @check_address_type(i64 -4643509960147185536, %clsvar* %table2400, i8* %var2396)
-br i1 %check2408, label %then2394, label %else2394
+%val2457 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
+%var2458 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%closure2459 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2457
+%tablePtr2460 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2459, i32 0, i32 0
+%tmp2461 = bitcast i8** %tablePtr2460 to %clsvar**
+%table2462 = load %clsvar*, %clsvar** %tmp2461
+%ePtr2463 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2459, i32 0, i32 1
+%e2464 = load i8*, i8** %ePtr2463
+%offset2465 = call i32 @get_address_offset(i64 -4643509960147185536, %clsvar* %table2462)
+%valPtr2466 = getelementptr i8, i8* %e2464, i32 %offset2465
+%val2467 = bitcast i8* %valPtr2466 to i8**
+%val2468 = load i8*, i8** %val2467
+%val2469 = bitcast i8* %val2468 to [20 x [128 x i64]]**
+%check2470 = call i1 @check_address_type(i64 -4643509960147185536, %clsvar* %table2462, i8* %var2458)
+br i1 %check2470, label %then2456, label %else2456
 
-then2394:
-%then_result2409 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2407
-br label %cont2394
+then2456:
+%then_result2471 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2469
+br label %cont2456
 
-else2394:
-%else_result2410 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2407
-br label %cont2394
+else2456:
+%else_result2472 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2469
+br label %cont2456
 
-cont2394:
-%result2411 = phi [20 x [128 x i64]]* [ %then_result2409, %then2394 ],  [ %else_result2410, %else2394 ]
+cont2456:
+%result2473 = phi [20 x [128 x i64]]* [ %then_result2471, %then2456 ],  [ %else_result2472, %else2456 ]
 
 ; let value assignment
-%samples_channels = select i1 true, [20 x [128 x i64]]* %result2411, [20 x [128 x i64]]* %result2411
+%samples_channels = select i1 true, [20 x [128 x i64]]* %result2473, [20 x [128 x i64]]* %result2473
 store [20 x [128 x i64]]* %samples_channels, [20 x [128 x i64]]** %samples_channelsPtr
 
 
 ; closure ref 
-%val2415 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
-%var2416 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
-%closure2417 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2415
-%tablePtr2418 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2417, i32 0, i32 0
-%tmp2419 = bitcast i8** %tablePtr2418 to %clsvar**
-%table2420 = load %clsvar*, %clsvar** %tmp2419
-%ePtr2421 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2417, i32 0, i32 1
-%e2422 = load i8*, i8** %ePtr2421
-%offset2423 = call i32 @get_address_offset(i64 3857864223347863030, %clsvar* %table2420)
-%valPtr2424 = getelementptr i8, i8* %e2422, i32 %offset2423
-%val2425 = bitcast i8* %valPtr2424 to i8**
-%val2426 = load i8*, i8** %val2425
-%val2427 = bitcast i8* %val2426 to [20 x [128 x i64]]**
-%check2428 = call i1 @check_address_type(i64 3857864223347863030, %clsvar* %table2420, i8* %var2416)
-br i1 %check2428, label %then2414, label %else2414
+%val2477 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*** %instPtr
+%var2478 = bitcast [20 x i8]* @gsxtminstruments_ext1 to i8*
+%closure2479 = load {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}** %val2477
+%tablePtr2480 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2479, i32 0, i32 0
+%tmp2481 = bitcast i8** %tablePtr2480 to %clsvar**
+%table2482 = load %clsvar*, %clsvar** %tmp2481
+%ePtr2483 = getelementptr {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}* %closure2479, i32 0, i32 1
+%e2484 = load i8*, i8** %ePtr2483
+%offset2485 = call i32 @get_address_offset(i64 3857864223347863030, %clsvar* %table2482)
+%valPtr2486 = getelementptr i8, i8* %e2484, i32 %offset2485
+%val2487 = bitcast i8* %valPtr2486 to i8**
+%val2488 = load i8*, i8** %val2487
+%val2489 = bitcast i8* %val2488 to [20 x [128 x i64]]**
+%check2490 = call i1 @check_address_type(i64 3857864223347863030, %clsvar* %table2482, i8* %var2478)
+br i1 %check2490, label %then2476, label %else2476
 
-then2414:
-%then_result2429 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2427
-br label %cont2414
+then2476:
+%then_result2491 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2489
+br label %cont2476
 
-else2414:
-%else_result2430 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2427
-br label %cont2414
+else2476:
+%else_result2492 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %val2489
+br label %cont2476
 
-cont2414:
-%result2431 = phi [20 x [128 x i64]]* [ %then_result2429, %then2414 ],  [ %else_result2430, %else2414 ]
+cont2476:
+%result2493 = phi [20 x [128 x i64]]* [ %then_result2491, %then2476 ],  [ %else_result2492, %else2476 ]
 
 ; let value assignment
-%samples_length = select i1 true, [20 x [128 x i64]]* %result2431, [20 x [128 x i64]]* %result2431
+%samples_length = select i1 true, [20 x [128 x i64]]* %result2493, [20 x [128 x i64]]* %result2493
 store [20 x [128 x i64]]* %samples_length, [20 x [128 x i64]]** %samples_lengthPtr
 
-%val2434 = load i64, i64* %indexPtr
-%val2435 = load i32, i32* %bankPtr
-%val2436 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_channelsPtr
+%val2496 = load i64, i64* %indexPtr
+%val2497 = load i32, i32* %bankPtr
+%val2498 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_channelsPtr
 ; array ref
-%val2437 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2436, i32 0, i32 %val2435
-%val2438 = load i64, i64* %channelsPtr
-%val2439 = bitcast i64 %val2438 to i64
+%val2499 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2498, i32 0, i32 %val2497
+%val2500 = load i64, i64* %channelsPtr
+%val2501 = bitcast i64 %val2500 to i64
 ; set array
-%val2440 = getelementptr [128 x i64], [128 x i64]* %val2437, i32 0, i64 %val2434
-store i64 %val2439, i64* %val2440
-%val2441 = load i64, i64* %indexPtr
-%val2442 = load i32, i32* %bankPtr
-%val2443 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
+%val2502 = getelementptr [128 x i64], [128 x i64]* %val2499, i32 0, i64 %val2496
+store i64 %val2501, i64* %val2502
+%val2503 = load i64, i64* %indexPtr
+%val2504 = load i32, i32* %bankPtr
+%val2505 = load [20 x [128 x float*]]*, [20 x [128 x float*]]** %samplesPtr
 ; array ref
-%val2444 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val2443, i32 0, i32 %val2442
-%val2445 = load float*, float** %adatPtr
+%val2506 = getelementptr [20 x [128 x float*]], [20 x [128 x float*]]* %val2505, i32 0, i32 %val2504
+%val2507 = load float*, float** %adatPtr
 ; set array
-%val2446 = getelementptr [128 x float*], [128 x float*]* %val2444, i32 0, i64 %val2441
-store float* %val2445, float** %val2446
-%val2447 = load i64, i64* %indexPtr
-%val2448 = load i32, i32* %bankPtr
-%val2449 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %offsetsPtr
+%val2508 = getelementptr [128 x float*], [128 x float*]* %val2506, i32 0, i64 %val2503
+store float* %val2507, float** %val2508
+%val2509 = load i64, i64* %indexPtr
+%val2510 = load i32, i32* %bankPtr
+%val2511 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %offsetsPtr
 ; array ref
-%val2450 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2449, i32 0, i32 %val2448
-%val2451 = load %AudioBuffer*, %AudioBuffer** %bufPtr
-%res2452 = call ccc i64 @AudioBuffer_loop_start(%AudioBuffer* %val2451)
+%val2512 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2511, i32 0, i32 %val2510
+%val2513 = load %AudioBuffer*, %AudioBuffer** %bufPtr
+%res2514 = call ccc i64 @AudioBuffer_loop_start(%AudioBuffer* %val2513)
 ; set array
-%val2453 = getelementptr [128 x i64], [128 x i64]* %val2450, i32 0, i64 %val2447
-store i64 %res2452, i64* %val2453
-%val2454 = load i64, i64* %indexPtr
-%val2455 = load i32, i32* %bankPtr
-%val2456 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
+%val2515 = getelementptr [128 x i64], [128 x i64]* %val2512, i32 0, i64 %val2509
+store i64 %res2514, i64* %val2515
+%val2516 = load i64, i64* %indexPtr
+%val2517 = load i32, i32* %bankPtr
+%val2518 = load [20 x [128 x i64]]*, [20 x [128 x i64]]** %samples_lengthPtr
 ; array ref
-%val2457 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2456, i32 0, i32 %val2455
-%val2458 = load i64, i64* %numPtr
+%val2519 = getelementptr [20 x [128 x i64]], [20 x [128 x i64]]* %val2518, i32 0, i32 %val2517
+%val2520 = load i64, i64* %numPtr
 ; set array
-%val2459 = getelementptr [128 x i64], [128 x i64]* %val2457, i32 0, i64 %val2454
-store i64 %val2458, i64* %val2459
+%val2521 = getelementptr [128 x i64], [128 x i64]* %val2519, i32 0, i64 %val2516
+store i64 %val2520, i64* %val2521
 ret i64 1
 }
-@gsxtminstruments_ext95 = hidden constant [159 x i8] c"set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 Scheme wrapper error: check the arg arity and types
+@gsxtminstruments_ext99 = hidden constant [159 x i8] c"set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 Scheme wrapper error: check the arg arity and types
 \00"
 define dllexport ccc {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** @set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0_maker(i8* %_impz) nounwind {
 entry:
 %_impzPtr = alloca i8*
 store i8* %_impz, i8** %_impzPtr
-%tzone2479 = load i8*, i8** %_impzPtr
-%zone2480 = bitcast i8* %tzone2479 to %mzone*
+%tzone2541 = load i8*, i8** %_impzPtr
+%zone2542 = bitcast i8* %tzone2541 to %mzone*
 
 ; let assign value to symbol set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0
-%dat_set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 = call i8* @llvm_zone_malloc(%mzone* %zone2480, i64 8)
+%dat_set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 = call i8* @llvm_zone_malloc(%mzone* %zone2542, i64 8)
 %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr = bitcast i8* %dat_set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 to { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***
-%tzone2460 = load i8*, i8** %_impzPtr
-%zone2461 = bitcast i8* %tzone2460 to %mzone*
-call void @llvm_zone_mark(%mzone* %zone2461)
+%tzone2522 = load i8*, i8** %_impzPtr
+%zone2523 = bitcast i8* %tzone2522 to %mzone*
+call void @llvm_zone_mark(%mzone* %zone2523)
 ; malloc closure structure
-%clsptr2462 = call i8* @llvm_zone_malloc(%mzone* %zone2461, i64 24)
-%closure2463 = bitcast i8* %clsptr2462 to { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*
+%clsptr2524 = call i8* @llvm_zone_malloc(%mzone* %zone2523, i64 24)
+%closure2525 = bitcast i8* %clsptr2524 to { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*
 
 ; malloc environment structure
-%envptr2464 = call i8* @llvm_zone_malloc(%mzone* %zone2461, i64 8)
-%environment2465 = bitcast i8* %envptr2464 to {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}*
+%envptr2526 = call i8* @llvm_zone_malloc(%mzone* %zone2523, i64 8)
+%environment2527 = bitcast i8* %envptr2526 to {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}*
 
 ; malloc closure address table
-%addytable2466 = call %clsvar* @new_address_table()
-%var2467 = bitcast [106 x i8]* @gsxtminstruments_ext93 to i8*
-%var2468 = bitcast [113 x i8]* @gsxtminstruments_ext94 to i8*
-%addytable2469 = call %clsvar* @add_address_table(%mzone* %zone2461, i8* %var2467, i32 0, i8* %var2468, i32 3, %clsvar* %addytable2466)
-%address-table2470 = bitcast %clsvar* %addytable2469 to i8*
+%addytable2528 = call %clsvar* @new_address_table()
+%var2529 = bitcast [106 x i8]* @gsxtminstruments_ext97 to i8*
+%var2530 = bitcast [113 x i8]* @gsxtminstruments_ext98 to i8*
+%addytable2531 = call %clsvar* @add_address_table(%mzone* %zone2523, i8* %var2529, i32 0, i8* %var2530, i32 3, %clsvar* %addytable2528)
+%address-table2532 = bitcast %clsvar* %addytable2531 to i8*
 
 ; insert table, function and environment into closure struct
-%closure.table2473 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2463, i32 0, i32 0
-store i8* %address-table2470, i8** %closure.table2473
-%closure.env2474 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2463, i32 0, i32 1
-store i8* %envptr2464, i8** %closure.env2474
-%closure.func2475 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2463, i32 0, i32 2
-store i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)* @set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0__2340, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)** %closure.func2475
-%closure_size2476 = call i64 @llvm_zone_mark_size(%mzone* %zone2461)
-call void @llvm_zone_ptr_set_size(i8* %clsptr2462, i64 %closure_size2476)
-%wrapper_ptr2477 = call i8* @llvm_zone_malloc(%mzone* %zone2461, i64 8)
-%closure_wrapper2478 = bitcast i8* %wrapper_ptr2477 to { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**
-store { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2463, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2478
+%closure.table2535 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2525, i32 0, i32 0
+store i8* %address-table2532, i8** %closure.table2535
+%closure.env2536 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2525, i32 0, i32 1
+store i8* %envptr2526, i8** %closure.env2536
+%closure.func2537 = getelementptr { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2525, i32 0, i32 2
+store i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)* @set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0__2402, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)** %closure.func2537
+%closure_size2538 = call i64 @llvm_zone_mark_size(%mzone* %zone2523)
+call void @llvm_zone_ptr_set_size(i8* %clsptr2524, i64 %closure_size2538)
+%wrapper_ptr2539 = call i8* @llvm_zone_malloc(%mzone* %zone2523, i64 8)
+%closure_wrapper2540 = bitcast i8* %wrapper_ptr2539 to { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**
+store { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}* %closure2525, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2540
 
 ; let value assignment
-%set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 = select i1 true, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2478, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2478
+%set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0 = select i1 true, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2540, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %closure_wrapper2540
 store { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0, { i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr
 
 ; add data to environment
 ; don't need to alloc for env var set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0
-%tmp_envptr2472 = getelementptr {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}, {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}* %environment2465, i32 0, i32 0
-store {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr, {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**** %tmp_envptr2472
+%tmp_envptr2534 = getelementptr {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}, {{i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}***}* %environment2527, i32 0, i32 0
+store {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr, {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**** %tmp_envptr2534
 
 
-%val2481 = load {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**, {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr
-ret {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %val2481
+%val2543 = load {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}**, {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}*** %set_sampler_audiobuffer_adhoc_W2k2NCxbZmxvYXQsZmxvYXQsaTY0LGk2NCxmbG9hdCpdKixBdWRpb0J1ZmZlciosaTY0LGkzMl0Ptr
+ret {i8*, i8*, i64 (i8*, i8*, {i8*, i8*, float (i8*, i8*, float, i64, i64, float*)*}**, %AudioBuffer*, i64, i32)*}** %val2543
 }
 
 
@@ -7118,8 +7222,8 @@ arg_0_true:
 br label %arg_0_continue
 
 arg_0_false:
-%var2482 = bitcast [159 x i8]* @gsxtminstruments_ext95 to i8*
-call i32 (i8*, ...) @printf(i8* %var2482)
+%var2544 = bitcast [159 x i8]* @gsxtminstruments_ext99 to i8*
+call i32 (i8*, ...) @printf(i8* %var2544)
 %arg_0_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_0_errret
 
@@ -7135,8 +7239,8 @@ arg_1_true:
 br label %arg_1_continue
 
 arg_1_false:
-%var2483 = bitcast [159 x i8]* @gsxtminstruments_ext95 to i8*
-call i32 (i8*, ...) @printf(i8* %var2483)
+%var2545 = bitcast [159 x i8]* @gsxtminstruments_ext99 to i8*
+call i32 (i8*, ...) @printf(i8* %var2545)
 %arg_1_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_1_errret
 
@@ -7152,8 +7256,8 @@ arg_2_true:
 br label %arg_2_continue
 
 arg_2_false:
-%var2484 = bitcast [159 x i8]* @gsxtminstruments_ext95 to i8*
-call i32 (i8*, ...) @printf(i8* %var2484)
+%var2546 = bitcast [159 x i8]* @gsxtminstruments_ext99 to i8*
+call i32 (i8*, ...) @printf(i8* %var2546)
 %arg_2_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_2_errret
 
@@ -7168,8 +7272,8 @@ arg_3_true:
 br label %arg_3_continue
 
 arg_3_false:
-%var2485 = bitcast [159 x i8]* @gsxtminstruments_ext95 to i8*
-call i32 (i8*, ...) @printf(i8* %var2485)
+%var2547 = bitcast [159 x i8]* @gsxtminstruments_ext99 to i8*
+call i32 (i8*, ...) @printf(i8* %var2547)
 %arg_3_errret = call ccc i8* @mk_i64(i8* %_sc, i64 0)
 ret i8* %arg_3_errret
 

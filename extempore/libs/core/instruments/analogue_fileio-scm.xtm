@@ -299,6 +299,7 @@
                        (open-input-file (string-append (sys:share-dir) "/" filename)))))
       (if (input-port? filein)
           (begin
+            (analogue-reset inst)
             (for-each (lambda (x)
                         (define tag (symbol->string (car x)))
                         ;; we need a couple of special cases
