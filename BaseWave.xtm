@@ -1,0 +1,45 @@
+;; set it all up
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+
+;; play the bass
+(:> bass 2 0
+  (play syn1 @1 @2 dur)
+  (list c3 c3 c3 c3)
+  (list 100 95 90 75))
+
+;; set oscillators for the bass synth
+(set_osc syn1 1 1.5 PARAM_SINE 1.000 0.0 0.0)
+(set_osc syn1 2 .4 PARAM_SAW 1.006 0.5 0.0)
+(set_osc syn1 3 1 PARAM_SINE .5000 0.0 0.0)
+
+;; gotta go fast (or slow)
+(*metro* 'set-tempo 110)
+
+;; set amp envelope for the bass synth
+(set_amp_env syn1 20 1400 .25 200.0)
+
+;; set up the filter for the bass synth
+(set_filter_frq syn1 5000.0)
+(set_filter_res syn1 0.2)
+
+;; set LFO sweeper
+(set_lfo syn1 PARAM_LFO1 3000 .05)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_FILTER_FRQ 1)
+
+;; add some reverb to the bass synth
+(set_reverb syn1 0.4 .7 9000.0 .96)
+
+;; load up the kick and snare samples
+(sampler-populate-slot samp1 "assets/samples/808/36.aif" *gm-kick* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/808/38.aif" *gm-snare* 0 0 0 1)
+(set_reverb samp1 0.4 .9 1000.0 .46)
+
+;; play the kick/snare beat
+(:> beat 2 0
+  (play samp1 @1 120 dur)
+  (list *gm-kick* *gm-snare*))
+
+;; stop playing
+(:| beat 4 0 (play samp1 @1 100 dur) '())
+(:| bass 16 0 (play syn1 @1 100 dur) '())

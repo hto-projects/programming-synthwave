@@ -1,0 +1,8 @@
+;; load up the library
+(sys:load "examples/sharedsystem/setup.xtm")
+
+;; play the "Hello World" of music: a C Major scale
+(:> scale 4 0 (play syn1 @1 100 dur) (list c4 d4 e4 f4 g4 a4 b4 c5))
+
+;; stop the scale
+(:| scale 4 0 (play syn1 @1 100 dur) '())

@@ -1,0 +1,45 @@
+(sys:load "../Library.xtm")
+
+;; define our progression, each chord of the form (chord note type)
+(set! progression (list
+  (chord c3 "maj")
+  (chord g2 "maj")
+  (chord a2 "min")
+  (chord f2 "maj")
+))
+
+;; set parameters
+(set! cut-time 1)
+(set! arp-base-octave 1)
+(set! arp-octave-shift-probability 0)
+(set! rep-bass 8)
+(set! rep-arp 4)
+
+;; set tempo
+(*metro* 'set-tempo 110)
+
+;; play the kick/snare beat
+(:> beat (* 2 cut-time) 0
+  (play samp1 @1 110 dur)
+  (list *gm-kick* *gm-snare*))
+
+;; play the hat
+(:> hat .25 0
+  (play samp1 @1 90 dur)
+  (list *gm-open-hi-hat*))
+
+;; play the bass
+(:> bass 16 0
+  (play syn1 @1 @2 dur)
+  (get-bass progression rep-bass)
+  (list (list 100 95 90 85)))
+
+;; play the arp
+(:> arp 16 0 (play syn2 @1 100 dur)
+  (get-arp progression rep-arp))
+
+;; stop playing
+(:| beat 4 0 (play samp1 @1 100 dur) '())
+(:| hat 4 0 (play samp1 @1 100 dur) '())
+(:| bass 16 0 (play syn1 @1 100 dur) '())
+(:| arp 16 0 (play syn1 @1 100 dur) '())
