@@ -33,12 +33,14 @@
 ;; load up the kick and snare samples
 (sampler-populate-slot samp1 "assets/samples/808/36.aif" *gm-kick* 0 0 0 1)
 (sampler-populate-slot samp1 "assets/samples/808/38.aif" *gm-snare* 0 0 0 1)
-(set_reverb samp1 0.4 .9 1000.0 .46)
 
 ;; play the kick/snare beat
 (:> beat 2 0
   (play samp1 @1 120 dur)
   (list *gm-kick* *gm-snare*))
+
+;; add reverb to the sampler
+(set_reverb samp1 0.25 .9 1000.0 .77)
 
 ;; stop playing
 (:| beat 4 0 (play samp1 @1 100 dur) '())
