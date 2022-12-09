@@ -27,16 +27,6 @@
 (set_mod_matrix syn1 PARAM_LFO1 PARAM_FILTER_FRQ 1)
 (set_reverb syn1 0.4 .7 9000.0 .96)
 
-;; setup arp synth
-(set_osc syn2 1 .6 PARAM_SAW 1.000 0.0 0.0)
-(set_osc syn2 2 .4 PARAM_SAW 1.005 0.0 0.0)
-(set_amp_env syn2 20 1500 0 1500.0)
-(set_filter_frq syn2 9000.0)
-(set_filter_res syn2 0.0)
-(set_lfo syn2 PARAM_LFO1 2000 2)
-(set_mod_matrix syn2 PARAM_LFO1 PARAM_FILTER_FRQ 1)
-(set_reverb syn2 0.4 .7 9000.0 .96)
-
 ;; play the kick/snare beat
 (:> beat 2 0
   (play samp1 @1 120 dur)
@@ -45,18 +35,18 @@
   (play samp1 @1 90 dur)
   (list *gm-open-hi-hat*))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; CHORD DEFINITIONS - BASS
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
 ;; play the bass the old way
 (:> bass 8 0
   (play syn1 @1 @2 dur)
-   (list c3 c3 c3 c3
-         c3 c3 c3 c3
-         b2 b2 b2 b2
-         g2 g2 g2 g2)
+   (list a3 a3 a3 a3
+         g3 g3 g3 g3
+         f3 f3 f3 f3
+         f3 f3 f3 f3)
   (list 100 95 90 85))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; CHORD DEFINITIONS - BASS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; setup chord type: contains a root and a type e.g., (chord c3 "maj")
 (define (chord root type)
@@ -72,10 +62,10 @@
 
 ;; define our progression, each chord of the form (chord note type)
 (define progression (list
-  (chord c3 "maj")
-  (chord c3 "maj")
-  (chord a2 "min")
+  (chord a3 "min")
+  (chord g3 "maj")
   (chord f3 "maj")
+  (chord g3 "maj")
 ))
 
 ;; get root note of the chord at the given index in the progression
@@ -100,18 +90,24 @@
          (nof 4 (prog-root 3)))
   (list (list 100 95 90 85)))
 
-;; play the bass longer for each chord
-(:> bass 16 0
-  (play syn1 @1 @2 dur)
-   (list (nof 8 (prog-root 0))
-         (nof 8 (prog-root 1))
-         (nof 8 (prog-root 2))
-         (nof 8 (prog-root 3)))
-  (list (list 100 95 90 85)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;; CHORD DEFINITIONS - ARP
+;;; DEFINITIONS - ARP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; setup arp synth
+(set_osc syn2 1 .6 PARAM_SAW 1.000 0.0 0.0)
+(set_osc syn2 2 .4 PARAM_SAW 1.005 0.0 0.0)
+(set_amp_env syn2 20 1500 0 1500.0)
+(set_filter_frq syn2 9000.0)
+(set_filter_res syn2 0.0)
+(set_lfo syn2 PARAM_LFO1 2000 2)
+(set_mod_matrix syn2 PARAM_LFO1 PARAM_FILTER_FRQ 1)
+(set_reverb syn2 0.4 .7 9000.0 .96)
+
+;; for example purposes only
+(:> arp 2 0 (play syn2 @1 100 dur)
+  (list e4 g4))
 
 ;; setup chord mappings
 (define (chord-library type)
