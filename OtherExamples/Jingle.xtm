@@ -1,0 +1,71 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+;; lead / bass / arp / pad
+
+(*metro* 'set-tempo 160.0)
+
+(set_osc syn1 1 .7 PARAM_SINE 1.01 0.0 0.9)
+(set_osc syn1 2 .8 PARAM_SAW .500 0.0 0.39)
+
+(set_amp_env syn1 10.0 1200.0 .4 200.0)
+
+(set_filter_type syn1 PARAM_HPF)
+(set_filter_frq syn1 10000.0)
+(set_filter_res syn1 0.1)
+
+(set_delay syn1 1 1 1 .1)
+
+(set_reverb syn1 0.4 0.1 40.0 .96)
+
+(set_osc syn2 1 .8 PARAM_PULSE 1.001 0.1 0.1)
+(set_osc syn2 2 .7 PARAM_SAW 1.00044 0.2 0.7)
+
+(set_amp_env syn2 20.0 6000.0 .4 20.0)
+
+(set_osc syn3 1 .7 PARAM_SINE 1.000 0.0 0.0)
+(set_osc syn3 2 .6 PARAM_SINE 1.0011 0.0 0.0)
+(set_flanger syn3 0.1 6.0 9.0 0.149323 0.0)
+
+(set_amp_env syn3 10.0 1000.0 .4 1000.0)
+
+(set_lfo syn3 PARAM_LFO1 5.0 4)
+(set_mod_matrix syn3 PARAM_LFO1 PARAM_OSC1_FRQ 1)
+
+;; let's bring in the filter
+(set_filter syn3 4200.0 0.2 12.0 12 0.0 0.0 0.0)
+
+(set_delay syn3 1 1 1 .000001)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(:> chords 16 0 (play syn1 @1 75 dur) '(
+_ _ _ #(e5 g5 c6) | #(e5 g5 c6) _ _ _ #(e5 g5 c6) _ _
+_ _ _ #(eb5 gb5 c6) | #(eb5 gb5 c6) _ _ _ #(eb5 gb5 c6) _ _
+_ _ _ #(d5 f5 a5) | #(d5 f5 a5) _ _ _ #(d5 f5 a5) _ _
+_ _ _ #(d5 g5 b5) | #(d5 g5 b5) _ _ _ #(d5 g5 b5) _ _))
+
+(:> bass 16 0 (play syn2 @1 60 dur) '(
+c2 | | _ _ c2 e2 | | g2 | |
+gb2 | | _ _ gb2 eb2 | | c2 | |
+d2 | | _ _ d2 f2 | | a2 | |
+g2 | | _ _ g2 f2 _ f2 e2 _ e2))
+
+(:> lead 16 0 (play syn3 @1 100 dur) '(
+g4 | | | | _ b4 | | c5 | |
+a4 | | | | | _ _ _ _ _ _
+_ _ _ _ _ _ a4 | b4 | c5 |
+e5 | | | | _ d5 | | | | _))
+
+(:| chords 4 0 (play syn1 @1 75 dur) '())
+(:| bass 1 0 (play syn2 @1 60 dur) '(c2))
+(:| lead 1 0 (play syn2 @1 60 dur) '(_))

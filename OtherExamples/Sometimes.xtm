@@ -1,0 +1,104 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; need to load this first, but only once
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+; tempo
+(*metro* 'set-tempo 169.0)
+
+; basics
+(set_main syn1 1.0 0.4 0.0 LEGATO_OFF)
+(set_main syn2 2.0 0.52 0.0 LEGATO_OFF)
+(set_main samp1 2.0 0.45 20.0 LEGATO_ON)
+
+; functions and settings
+(define (bass-update speed)
+  (begin
+    (set! bass-speed speed)
+    (if (> speed 16)
+      (set_amp_env syn2 10.0 50000.0 .3 30000.0)
+      (set_amp_env syn2 10.0 200.0 .5 1200.0))
+    ))
+
+(define (get-notes root-note double-notes)
+  (cond ((eq? root 'bb) (if double '((bb1 bb1) (bb3 bb3) (f2 f2) (d3 d3)) '(bb1 bb2 d2 f2)))
+        ((eq? root 'eb) (if double '((eb2 eb2) (bb3 bb3) (g2 g2) (eb3 eb3)) '(eb2 bb3 g2 eb3)))
+        ((eq? root 'c) (if double '((c3 c3) (d4 d4) (g3 g3) (eb3 eb3)) '(c3 bb4 g2 eb3)))
+        ((eq? root 'g) (if double '((g2 g2) (bb3 bb3) (d3 d3) (g3 g3)) '(g2 bb3 d3 g3)))))
+
+(define (get-rand-list root-note)
+  (list (random (cond ((eq? root 'bb) '(bb3 f3 c4 bb3 f3 c4 bb3 f3 c4 d4))
+        ((eq? root 'eb) '(eb3 bb3 g3 eb3 bb3 g3 eb3 bb3 g3 d4))
+        ((eq? root 'c) '(c3 d4 g3 eb3 d4 g3 eb3 d4 g3 bb3))
+        ((eq? root 'g) '(g3 bb3 d3 g3 bb3 d3 g3 bb3 eb3 d3))))))
+
+(define (get-pad2-notes root-note)
+  (cond ((eq? root 'bb) '(f2))
+        ((eq? root 'eb) '(eb3))
+        ((eq? root 'c) '(c3))
+        ((eq? root 'g) '(g2))))
+
+; global state
+(define root 'bb)
+(define double #f)
+(define bass-speed 64)
+(bass-update 64)
+
+; pad settings (syn1)
+(set_osc syn1 1 .9 PARAM_SINE 1.0 1.0 0.0)
+(set_osc syn1 2 .3 PARAM_TRI 1.0035 0.4 .6)
+(set_amp_env syn1 600.0 20 .9 6900.0)
+(set_delay syn1 .5 500 500 .9)
+
+; bass settings (syn2)
+(set_osc syn2 1 .7 PARAM_TRI 1.007 0.0 0.0)
+(set_osc syn2 2 .9 PARAM_SINE 2.0 0 0)
+(set_osc syn2 3 0 PARAM_SAW 1.0 .1 .6)
+(set_delay syn2 0 500 500 .2)
+
+(set_filter_type syn2 PARAM_LPF)
+(set_filter_frq syn2 6000.0)
+(set_filter_res syn2 0.3)
+(set_mod_matrix syn2 PARAM_LFO1 PARAM_FILTER_FRQ 1)
+(set_lfo syn2 PARAM_LFO1 3000.0 .05)
+
+(set_mod_matrix syn2 PARAM_LFO2 PARAM_OSC1_FRQ 1)
+(set_mod_matrix syn2 PARAM_LFO2 PARAM_OSC2_FRQ 1)
+(set_mod_matrix syn2 PARAM_LFO2 PARAM_OSC3_FRQ 1)
+(set_lfo syn2 PARAM_LFO2 1 10)
+                           
+; lead settings (samp1)
+(set_amp_env samp1 0.0 10000 .9 2000.0)
+(set_reverb samp1 0.0 .9 1000.0 .76)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; playing pad
+(:> pad 16 0 (play syn1 @1 75 dur) '(bb2))
+(:> pad2 8 0 (play syn1 @1 70 (* dur .5)) (get-pad2-notes root))
+(:> pad3 9 0 (play syn1 @1 80 dur) (get-rand-list root))
+
+; playing bass
+(:> bass bass-speed 0 (play syn2 @1 80 (* dur 1.5)) (get-notes root double))
+
+; playing lead
+(:> lead 20 0 (play samp1 @1 120 (* 1.9 dur)) '(bb4 f4 d4 bb4 f4 d4 a4 bb4 f4 d4 bb4 f4 d4 a4 bb4 d4 bb4 f4 d4 a4))
+
+; playing lead 2
+(:> lead2 10 0 (play samp1 @1 100 dur) '(bb3 f3 d3 bb3 f3 d3 a3 bb3 f3 d3 bb3 f3 d3 a3 bb3 d3 bb3 f3 d3 a3))
+
+; stopping
+(:| pad 1 0 (play syn1 @1 45 dur) '(_))
+(:| pad2 1 0 (play syn1 @1 45 dur) '(_))
+(:| pad3 1 0 (play syn1 @1 45 dur) '(_))
+(:| bass 1 0 (play syn1 @1 45 dur) '(_))
+(:| lead 1 0 (play syn1 @1 45 dur) '(_))
+(:| lead2 1 0 (play syn1 @1 45 dur) '(_))

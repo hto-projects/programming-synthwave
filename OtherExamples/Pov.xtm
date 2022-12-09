@@ -1,0 +1,68 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; need to load this first, but only once
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+(*metro* 'set-tempo 86)
+
+;; syn1
+(set_osc syn1 1 .9 PARAM_SINE 2.0 0.0 0.0)
+(set_osc syn1 2 .8 PARAM_SINE 2.001 0.0 0.0)
+(set_amp_env syn1 200.0 200 1.0 690.0)
+(set_delay syn1 .4 500 250 .6)
+(set_filter_type syn1 PARAM_BPF)
+(set_filter_frq syn1 2000.0)
+(set_filter_res syn1 0.7)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_FILTER_FRQ 1)
+(set_lfo syn1 PARAM_LFO1 1500.0 .067)
+(set_reverb syn1 0.2 0.2 40.0 .6)
+
+;; syn2
+(set_osc syn2 1 .02 PARAM_SAW 1.000 0.0 0.0)
+(set_osc syn2 2 .8 PARAM_TRI 1.000 0.6 0.5)
+(set_osc syn2 3 .8 PARAM_TRI 1.0016 0.9 0.2)
+(set_amp_env syn2 10.0 100 0.8 1000.0)
+
+;; syn3
+(set_osc syn3 1 .9 PARAM_SINE 1.00 0.0 0.0)
+(set_osc syn3 2 .4 PARAM_TRI 1.001 0.8 0.0)
+
+(set_amp_env syn3 5.0 900 0.1 500.0)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(:> clink 4 0 (play syn3 @1 @2 dur) '(c4 a4 c4 a4) '(70 60 40 10))
+(:> pad2 16 0 (play syn1 @1 50 dur) '(
+c3 e4 c2 g3 c3 e4 c2 g3 c3 e4 c2 g3 c3 e4 c2 g3
+c3 e4 c2 g3 c3 e4 c2 g3 c3 e4 c2 g3 c3 e4 c2 g3
+c3 e4 c2 g4 c3 e4 c2 g4 c3 e4 c2 g4 c3 e4 c2 g4
+c3 e4 c2 g4 c3 e4 c2 g4 c3 e4 c2 g4 c3 e4 c2 g4
+c3 e4 c2 g2 c3 e4 c2 g2 c3 e4 c2 g2 c3 e4 c2 g2
+c3 e4 c2 g2 c3 e4 c2 g2 c3 e4 c2 g2 c3 e4 c2 g2
+c3 e4 c2 g5 c3 e4 c2 g5 c3 e4 c2 g5 c3 e4 c2 g5
+c3 e4 c2 g5 c3 e4 c2 g5 c3 e4 c2 g5 c3 e4 c2 g5
+))
+(:> clink-up 8 0 (play syn3 @1 @2 dur) '(c5 c5 c5 c5) '(70 70 60 40))
+(:> bass 16 0 (play syn2 @1 90 dur) '(
+c2 _ c2 _ c2 _ c3 _
+c3 _ c3 _ c3 _ c3 _
+a2 _ a2 _ a2 _ g2 _
+g2 _ g2 _ g2 _ g2 _
+d3 _ d3 _ d3 _ e3 _
+e3 _ e3 _ e3 _ e3 _
+f3 _ f3 _ f3 _ f2 _
+f2 _ f2 _ f2 _ f2 _
+))
+
+(:| clink 4 0 (play syn3 @1 @2 dur) '(c4 a4 c4 a4) '(70 60 40 10))
+(:| pad2 16 0 (play syn1 @1 50 dur) '())
+(:| clink-up 8 0 (play syn3 @1 @2 dur) '(c5 c5 c5 c5) '(70 70 60 40))
+(:| bass 16 0 (play syn2 @1 90 dur) '())

@@ -1,0 +1,83 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; need to load this first, but only once
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+(*metro* 'set-tempo 96)
+
+(set_osc syn1 1 .9 PARAM_SINE 1.0000 0.0 0.0)
+(set_osc syn1 2 .5 PARAM_TRI 1.0012 0.0 0.0)
+(set_osc syn1 3 0.5 PARAM_SINE 2.000 0.0 0.0)
+(set_amp_env syn1 20.0 2000.0 .9 1200.0)
+(set_delay syn1 0.3 25 250 .3)
+(set_filter_type syn1 PARAM_LPF)
+(set_filter_frq syn1 100000.0)
+(set_filter_res syn1 0.0)
+
+(set_osc syn2 1 .9 PARAM_SAW 1.0000 0.0 0.0)
+(set_osc syn2 2 1 PARAM_TRI 0.50021 0.0 0.0)
+(set_amp_env syn2 20.0 0.0 .8 100.0)
+(set_filter_type syn2 PARAM_HPF)
+(set_filter_frq syn2 3000.0)
+(set_filter_res syn2 0.0)
+
+(set_osc syn3 1 .65 PARAM_SAW 1.0012 0.2 0.2)
+(set_osc syn3 2 .45 PARAM_TRI 1.0000 0.4 0.7)
+(set_filter_type syn3 PARAM_HPF)
+(set_filter_frq syn3 8000.0)
+(set_filter_res syn3 .0)
+(set_lfo syn3 PARAM_LFO1 2000.0 .08)
+(set_mod_matrix syn3 PARAM_LFO1 PARAM_FILTER_FRQ 1)
+(set_amp_env syn3 0.0 200.0 1.0 200.0)
+
+(set_polyphony syn3 1)
+(set_polyphony syn2 1)
+(set_main syn3 3.0 0.45 50.0 LEGATO_ON)
+(set_main syn2 3.0 0.5 10.0 LEGATO_ON)
+(set_main syn1 3.0 0.65 50.0 LEGATO_OFF)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(:> soles 32 0 (play syn1 @1 85 (* .6 dur)) '(
+d4 a4 c#5 a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+d4 a4 (c#5 _ c#5 _) a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+
+d4 a4 c#5 a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+d4 a4 (c#5 _ c#5 _) a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+
+d4 a4 c#5 a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+d4 a4 (c#5 _ c#5 _) a4 d5 a4
+d4 a4 c#5 a4 d5 a4
+
+g4 d5 e5 d5 f#5 d5
+g4 d5 a5 d5 f#5 d5
+g4 d5 (e5 _ e5 _) d5 f#5 d5
+g4 d5 b5 d5 a5 d5
+))
+
+(:> bass 16 0 (play syn2 @1 80 dur) '(
+d3 | | | | | | | | | | | | | | | | | | | | | | |
+g2 | | | | | | | | | | | | | | | | | | | | | | |
+))
+
+(:> lead 16 0 (play syn3 @1 80 dur) '(
+a3 | | | | | b3 | | d4 | | e4 | | f#4 | | e4 | | d4 | |
+b3 | | | | | | | | | | | | | | | | | | | | | | |
+))
+
+(:| soles 16 0 (play syn1 @1 85 dur) '(_))
+(:| bass 16 0 (play syn1 @1 85 dur) '(_))
+(:| lead 16 0 (play syn1 @1 85 dur) '(_))

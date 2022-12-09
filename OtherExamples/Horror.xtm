@@ -1,0 +1,109 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+(*metro* 'set-tempo 169.0)
+
+(set_osc syn1 1 .8 PARAM_SAW 1.001 0.0 0.0)
+(set_osc syn1 2 .7 PARAM_SAW 1.00212 0.1 0.0)
+(set_amp_env syn1 0.0 4000 .5 600.0)
+(set_pitch_env_amt syn1 .6)
+(set_filter_type syn1 PARAM_BPF)
+(set_filter_frq syn1 2000.0)
+(set_filter_res syn1 0.2)
+(set_lfo syn1 PARAM_LFO1 800.0 .0282)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_FILTER_FRQ 2)
+(set_delay syn1 .1 500 500 .2)
+
+(set_osc syn2 1 .5 PARAM_SINE 1 0.0 0.0)
+(set_osc syn2 2 .35 PARAM_SAW 1.01 0.0 0.0)
+(set_amp_env syn2 10.0 8000.0 0 2000.0)
+(set_reverb syn2 0.5 0.9 8000.0 5.6)
+(set_delay syn2 .25 210 190 .6)
+(set_lfo syn2 PARAM_LFO1 10.0 1)
+(set_mod_matrix syn2 PARAM_LFO1 PARAM_OSC1_FRQ 1)
+
+(sampler-populate-slot samp1 "assets/samples/808/52.aif" *gm-open-hi-hat* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/salamander-kit/45.wav" *gm-kick* 0 0 0 1)
+(set_reverb samp1 0.6 1.9 800.0 .16)
+
+(set_osc syn3 1 .9 PARAM_SINE 1.0 1.0 0.0)
+(set_osc syn3 2 .3 PARAM_TRI 1.0035 0.4 .6)
+(set_amp_env syn3 1000.0 20 .9 4000.0)
+(set_delay syn3 .6 500 800 .6)
+
+(define (low-maybe listy)
+  (map (lambda (x) (if (> (random) .2) x (- x 12))) listy))
+
+(define creep-odds-basic 1)
+(define creep-odds-off .85)
+(define creep-odds-dub .6)
+(define creep-odds-max .2)
+
+(define (high-maybe listy)
+  (map
+    (lambda (x)
+      (if
+        (< (random) creep-odds-basic)
+        (if (< (random) creep-odds-off) (+ x 24) '_)
+        (if
+          (< (random) creep-odds-dub)
+          (list (+ x 12) x)
+          (if (< (random) creep-odds-max)
+            (list (+ x 12) x (- x 12) (+ x 24))
+            (list x (+ x 12) x (+ x 36) (+ x 12) (+ x 36))))))
+  listy))
+
+(define (ch p a b)
+  (if (< (random) p) a b))
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+(:> pad2 8 0 (play syn3 @1 30 (* dur .5)) '(g5))
+(:> pad 16 0 (play syn3 @1 45 dur) '(a2 #(a3 c4) a2 #(b3 e4)))
+
+(set! creep-odds-basic 1)
+(set! creep-odds-off .9)
+(set! creep-odds-dub .8)
+(set! creep-odds-max .2)
+(:> creep 16 0 (play syn2 @1 @2 dur) (high-maybe (list 60 62 60 67 64 65 57 59)) (list (ch .8 70 90)))
+
+(set! creep-odds-basic .8)
+(:> creep 16 0 (play syn2 @1 @2 dur) (high-maybe (list 60 62 60 67 64 65 57 59)) (list (ch .8 90 100)))
+(:> friday 4 0 (play samp1 @1 @2 dur)
+  (list *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat* *gm-open-hi-hat*)
+  (list 55 45 40 30 100 95 85 70))
+
+(set! creep-odds-basic .7)
+(set! creep-odds-off 1)
+(:> kicky 8 0 (play samp1 @1 @2 dur)
+  (list *gm-kick* *gm-kick* *gm-kick* *gm-kick* '_ '_ '_ '_ '_ '_ '_ '_ '_ '_ '_ '_)
+  (list 100 90 60 40))
+
+(set! creep-odds-dub .6)
+(set! creep-odds-max .5)
+(set! creep-odds-basic .5)
+(:> bass 8 0 (play syn1 @1 90 dur) (low-maybe (list 57 45 57 45 59 60 45 57 45 57 45 57 59 60 72 69)))
+(:> kicky 4 0 (play samp1 @1 @2 dur)
+  (list *gm-kick* *gm-kick* *gm-kick* *gm-kick* '_ '_ '_ '_)
+  (list 100 90 60 40))
+
+(:> chordies 16 0 (play syn2 @1 110 dur) '(#(c5 e5)))
+
+(:| creep 8 0 (play samp1 @1 100 dur) '(_))
+(:| bass 2 0 (play syn1 @1 70 dur) '(_))
+(:| friday 2 0 (play syn1 @1 70 dur) '(_))
+(:| pad 2 0 (play syn1 @1 70 dur) '(_))
+(:| pad2 2 0 (play syn1 @1 70 dur) '(_))
+(:| pad3 2 0 (play syn1 @1 70 dur) '(_))
+(:| kicky 2 0 (play syn1 @1 70 dur) '(_))
+(:| chordies 2 0 (play syn1 @1 70 dur) '(_))

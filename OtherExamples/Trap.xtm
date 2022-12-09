@@ -1,0 +1,96 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; SETUP
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; need to load this first, but only once
+(sys:load "examples/sharedsystem/setup.xtm")
+(analogue_reset syn1)
+(analogue_reset syn2)
+(analogue_reset syn3)
+
+(*metro* 'set-tempo 140.0)
+
+;; sampler
+(sampler-populate-slot samp1 "assets/samples/808/44.aif" *gm-open-hi-hat* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/808/42.aif" *gm-closed-hi-hat* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/808/36.aif" *gm-kick-2* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/808/52.aif" *gm-snare* 0 0 0 1)
+(sampler-populate-slot samp1 "assets/samples/808/39.aif" *gm-snare-2* 0 0 0 1)
+
+;; syn2
+(set_amp_env syn2 15.0 5000 .2 200.0)
+(set_pitch_env syn2 0.0 200.0)
+(set_pitch_env_amt syn2 .7)
+(set_osc syn2 1 .9 PARAM_SINE 1.000 0.0 0.0)
+(set_osc syn2 2 .9 PARAM_SINE 1.0052 0.1 0.8)
+(set_osc syn2 3 0 PARAM_SINE 1.0023 .5 0.9)
+
+(set_overdrive_amt syn2 10000)
+
+(set_filter_type syn2 PARAM_LPF)
+(set_filter_frq syn2 8000.0)
+(set_filter_res syn2 0.2)
+
+;; syn1
+(set_osc syn1 1 .9 PARAM_TRI 1.000 0.0 0.0)
+(set_osc syn1 2 .67 PARAM_TRI 1.002333 0.1 0.3)
+(set_osc syn1 3 .8 PARAM_TRI 1.00309 0.5 0.5)
+(set_amp_env syn1 10.0 8000 .2 2000.0)
+(set_delay syn1 .3 250 250 .2)
+
+(set_lfo syn1 PARAM_LFO1 3.5 2)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_OSC1_FRQ 1)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_OSC2_FRQ 1)
+(set_mod_matrix syn1 PARAM_LFO1 PARAM_OSC3_FRQ 1)
+
+(set_filter_type syn1 PARAM_BPF)
+(set_filter_frq syn1 10000.0)
+(set_filter_res syn1 0.2)
+
+(set_lfo syn1 PARAM_LFO2 9000.0 .04)
+(set_mod_matrix syn1 PARAM_LFO2 PARAM_FILTER_FRQ 1)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; PLAY
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(:> hat 1 0 (play samp1 @1 75 dur) (list *gm-open-hi-hat* *gm-open-hi-hat*))
+(:> hat2 .5 0 (play samp1 @1 70 dur) (list '_
+    (if (> .2 (random)) *gm-open-hi-hat* '_)))
+
+(:> snare2 4 0 (play samp1 @1 80 dur) (list '_ *gm-snare-2*))
+
+(:> kick 8 0 (play samp1 @1 90 dur)
+  (list *gm-kick-2* '| '| '|
+    '_ '_ '_ '|
+    '_ '| *gm-kick-2* '|
+    '_ '_ '_ '_))
+
+(:> kick 8 0 (play samp1 @1 90 dur)
+  (list *gm-kick-2* '| '| '|
+    '_ *gm-kick-2* *gm-kick-2* '|
+    '_ '| '| '|
+    (list '_ '_ *gm-kick-2* '_) *gm-kick-2* *gm-kick-2* *gm-kick-2*))
+
+(:> snare 2 0 (play samp1 @1 80 dur) (list '_ *gm-snare*))
+(:> bass 16 0 (play syn2 @1 105 dur)
+  '(f1 | | |
+    f2 c2 f1 |
+    | | | |
+    (f1 _ f1 _) f1 f1 g1
+    e1 | | |
+    e2 c2 e1 |
+    | | | |
+    (c1 _ c1 _) c1 c1 e1))
+
+(:> guitar 16 0 (play syn1 @1 @2 dur) '(f4 c5 a4 e5 f4 c5 a4 e5 f4 c5 a4 e5 f4 c5 a4 e5 e4 c5 g4 e5 e4 c5 g4 e5 e4 c5 g4 e5 e4 c5 g4 e5) '(65 60))
+
+;; stop
+(:| hat 1 0 (play samp1 @1 50 dur) (list *gm-open-hi-hat* *gm-open-hi-hat*))
+(:| hat2 .5 0 (play samp1 @1 50 dur) (list '_ (if (> .2 (random)) *gm-open-hi-hat* '_)))
+(:| kick 8 0 (play samp1 @1 50 dur) (list '_))
+(:| bass 16 0 (play syn1 @1 50 dur) '())
+(:| guitar 16 0 (play syn1 @1 50 dur) '())
+(:| snare 2 0 (play samp1 @1 50 dur) (list '_ *gm-snare*))
+(:| snare2 4 0 (play samp1 @1 50 dur) (list '_ *gm-snare-2*))
